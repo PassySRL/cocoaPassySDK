@@ -1,0 +1,11 @@
+framework module PassyCore {
+  umbrella header "PassyCore.h"
+
+  export *
+  module * { export * }
+}
+
+module PassyCore.Swift {
+  header "PassyCore-Swift.h"
+  requires objc
+}

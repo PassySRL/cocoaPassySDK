@@ -1,0 +1,1348 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-macos13.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PassyCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreBluetooth
+import CryptoKit
+import Foundation
+@_exported import PassyCore
+import Swift
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class ItemData : Swift.Codable {
+  public var availableBeacons: [PassyCore.InfoBeaconData]?
+  public var availableActionsGroups: [PassyCore.ActionsGroupData]?
+  public var itemIcon: Swift.String?
+  public var itemID: Foundation.UUID?
+  public var itemType: PassyCore.ObjectType?
+  public var openable: Swift.Bool?
+  public var direction: Swift.Int32?
+  public var isDefault: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public class BluetoothConnectionFlowManager : ObjectiveC.NSObject, CoreBluetooth.CBCentralManagerDelegate, CoreBluetooth.CBPeripheralDelegate {
+  public var lockNumber: [Swift.UInt8]?
+  public var device: PassyCore.SmartkeyBluetoothDevice {
+    get
+  }
+  public var previousConnectionState: PassyCore.SmartkeyBluetoothConnectionState {
+    get
+  }
+  public var currentConnectionState: PassyCore.SmartkeyBluetoothConnectionState {
+    get
+  }
+  public var bluetoothKeysResolver: PassyCore.BluetoothKeysResolver? {
+    get
+    set(value)
+  }
+  public init(device: PassyCore.SmartkeyBluetoothDevice, centralManager: CoreBluetooth.CBCentralManager, bluetoothKeysResolver: PassyCore.BluetoothKeysResolver?)
+  public func tryConnect() throws
+  public func tryDisconnect() -> Swift.Bool
+  @objc public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc public func centralManager(_ central: CoreBluetooth.CBCentralManager, didConnect peripheral: CoreBluetooth.CBPeripheral)
+  @objc public func centralManager(_ central: CoreBluetooth.CBCentralManager, didFailToConnect peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
+  @objc public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
+  @objc public func peripheralDidUpdateName(_ peripheral: CoreBluetooth.CBPeripheral)
+  @objc public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverServices error: (any Swift.Error)?)
+  @objc public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: (any Swift.Error)?)
+  @objc public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: (any Swift.Error)?)
+  @objc public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didWriteValueFor characteristic: CoreBluetooth.CBCharacteristic, error: (any Swift.Error)?)
+  @objc deinit
+}
+#if compiler(>=5.3) && $PrimaryAssociatedTypes2
+public protocol IServiceOperationResult<T> {
+  associatedtype T
+  var isSucceeded: Swift.Bool { get }
+  var code: PassyCore.ServiceResultCode { get }
+  var authenticationToken: Swift.String { get }
+  var rawData: Swift.String { get }
+  var httpStatusCode: Swift.Int { get }
+  var error: (any Swift.Error)? { get }
+  var result: Self.T? { get }
+}
+#else
+public protocol IServiceOperationResult {
+  associatedtype T
+  var isSucceeded: Swift.Bool { get }
+  var code: PassyCore.ServiceResultCode { get }
+  var authenticationToken: Swift.String { get }
+  var rawData: Swift.String { get }
+  var httpStatusCode: Swift.Int { get }
+  var error: (any Swift.Error)? { get }
+  var result: Self.T? { get }
+}
+#endif
+public struct TenantConfigurationData : Swift.Codable, Swift.CustomStringConvertible {
+  public var configurationID: Foundation.UUID
+  public var tenantID: Foundation.UUID?
+  public var company: Swift.String
+  public var baseUri: Swift.String?
+  public var baseUriWebApp: Swift.String?
+  public var OAUTHClientID: Swift.String?
+  public var OAUTHResourceIDUri: Swift.String?
+  public var OAUTHRedirectUrl: Swift.String?
+  public var OAUTHHint: Swift.String?
+  public var SmartKeyOAuthUri: Swift.String?
+  public var SmartKeyMSALUrl: Swift.String?
+  public var smartKeyGuestUri: Swift.String?
+  public var smartKeyDeleteURI: Swift.String
+  public var rssi: Swift.Int
+  public var isEnabled: Swift.Bool
+  public var description: Swift.String {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class SmartkeyLocationsService : PassyCore.PassyWebAPIService {
+  public static let DefaultRootObject: Swift.Int
+  public init(serviceUris: PassyCore.SmartkeysServiceUris)
+  public func getLocationsAsync(root: Swift.Int, parameters: PassyCore.GetLocationsParameters, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.LocationContainer>) -> Swift.Void)) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LocationInfo : Swift.Codable {
+  public var item: PassyCore.ItemData?
+  public var organizationID: Foundation.UUID?
+  public var locationName: Swift.String?
+  public var locationID: Swift.Int?
+  public var parentLocationID: Swift.Int?
+  public var locationDescription: Swift.String?
+  public var locationType: PassyCore.LocationType?
+  public var accessiID: [Swift.Int]?
+  public var locationsChildrenID: [Swift.Int]?
+  public var locationsChildrenType: [PassyCore.ObjectType]?
+  public var locationsChildren: [PassyCore.LocationInfo]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class TimeUtils {
+  public static let TicksAtEpoch: Swift.Int64
+  public static let TicksPerMilliseconds: Swift.Int64
+  public func getUTCTimestampInMilliseconds() -> Swift.Int64
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class InfoBeaconData : Swift.Codable {
+  public var tenantID: Foundation.UUID?
+  public var companyID: Foundation.UUID?
+  public var beaconID: Foundation.UUID?
+  public var roomControllerID: Foundation.UUID?
+  public var serraturaID: Foundation.UUID?
+  public var guidBeacon: Foundation.UUID?
+  public var IDRc: Swift.Int?
+  public var IDSerratura: Swift.Int?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class GetSmartkeysResult : Swift.Codable, Swift.CustomStringConvertible {
+  public var tenantID: Foundation.UUID
+  public var smartkeys: [PassyCore.SmartKeyData]
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers public class CommandsService : PassyCore.PassyWebAPIService {
+  public func executeAsync(objectID: Foundation.UUID?, locationID: Swift.Int?, requestOrigin: PassyCore.RequestOrigin, objectIDReference: Foundation.UUID?, roomControllerNumber: Swift.Int?, beaconObjectNumber: Swift.Int?, groupName: Swift.String?, secretCode: Swift.String?, secureNFCTagParams: PassyCore.SecureNFCTagParams?, useSecureEndpoint: Swift.Bool, authorizationHeader: Swift.String, operationCallback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ExecuteActionResult>) -> Swift.Void)) throws
+  override public init(smartkeysServiceUris: PassyCore.SmartkeysServiceUris)
+  @objc deinit
+}
+public class SmartkeyBluetoothDevice {
+  public var accuracy: Swift.Double
+  public var proximity: PassyCore.BluetoothDistances
+  public var invalidated: Swift.Bool
+  public var bluetoothPeripheral: CoreBluetooth.CBPeripheral?
+  public var hostName: Swift.String?
+  public var identifier: Swift.String {
+    get
+  }
+  public var device: CoreBluetooth.CBPeripheral? {
+    get
+  }
+  public var rssi: Swift.Int? {
+    get
+  }
+  public var rawRSSI: Swift.Int? {
+    get
+  }
+  public var itemUUID: Foundation.UUID {
+    get
+  }
+  public var deviceType: PassyCore.SmartkeyBluetoothDeviceTypes {
+    get
+  }
+  public var bluetoothAddress: Swift.String? {
+    get
+  }
+  public var localDeviceName: Swift.String? {
+    get
+  }
+  public var previousRSSI: Swift.Int? {
+    get
+  }
+  public var previousRawRSSI: Swift.Int? {
+    get
+  }
+  public var major: Swift.UInt? {
+    get
+  }
+  public var minor: Swift.UInt? {
+    get
+  }
+  public var signalPower: Swift.UInt8? {
+    get
+  }
+  public var timestamp: Foundation.Date {
+    get
+  }
+  convenience public init()
+  public init(itemUUID: Foundation.UUID, deviceType: PassyCore.SmartkeyBluetoothDeviceTypes, bluetoothAddress: Swift.String? = nil, localDeviceName: Swift.String? = nil, rssi: Swift.Int? = nil, rawRSSI: Swift.Int? = nil, device: CoreBluetooth.CBPeripheral? = nil, major: Swift.UInt? = nil, minor: Swift.UInt? = nil, signalPower: Swift.UInt8? = nil, timestamp: Foundation.Date)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PassyWebAPIService : PassyCore.WebAPIService {
+  public init(smartkeysServiceUris: PassyCore.SmartkeysServiceUris)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TimeHelper {
+  public static func timestamp() -> Foundation.Date
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AccessData : Swift.Codable {
+  public var organizationID: Foundation.UUID?
+  public var keyID: Foundation.UUID?
+  public var keyType: Swift.Int?
+  public var enabled: Swift.Bool?
+  public var accessID: Swift.Int?
+  public var startDate: Foundation.Date?
+  public var endDate: Foundation.Date?
+  public var locationID: Swift.Int?
+  public var description: Swift.String?
+  public var canOpenRemote: Swift.Bool?
+  public var isOccupant: Swift.Bool?
+  public var guestEmail: Swift.String?
+  public var accessType: Swift.Int?
+  public var repetition: PassyCore.AccessRepetitionData?
+  public var counterAssigned: Swift.Int?
+  public var counterConsumed: Swift.Int?
+  public var counterType: PassyCore.AccessCounterType?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class ReservationGuest : Swift.Codable {
+  public var companyID: Foundation.UUID?
+  public var reservationID: Foundation.UUID?
+  public var email: Swift.String?
+  public var roles: [Swift.String]?
+  public var checkIn: Foundation.Date?
+  public var checkOut: Foundation.Date?
+  public var confirmed: Swift.Bool?
+  public init()
+  convenience public init(email: Swift.String, roles: [Swift.String]?)
+  convenience public init(email: Swift.String, role: Swift.String)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ActionsGroupData : Swift.Codable {
+  public var groupID: Foundation.UUID?
+  public var groupName: Swift.String?
+  public var actions: [PassyCore.GroupActionItemDetails]?
+  public var requiredModality: Swift.Int?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public typealias long = Swift.Int64
+public typealias ulong = Swift.UInt64
+public enum SignInOutEventType : Swift.Int, Swift.Codable {
+  case Unknown
+  case SignIn
+  case SignOut
+  case SignInDesk
+  case SignOutDesk
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum ReservationRole : Swift.String {
+  case unknown
+  case organizer
+  case attendee
+  case required
+  case optional
+  case resource
+  case creator
+  case visitor
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class MobileRequest : Swift.Codable {
+  public var objectID: Foundation.UUID?
+  public var locationID: Swift.Int?
+  public var requestOrigin: PassyCore.RequestOrigin
+  public var objectIDReference: Foundation.UUID?
+  public var roomControllerNumber: Swift.Int?
+  public var beaconObjectNumber: Swift.Int?
+  public var secretCode: Swift.String?
+  public var secureNFCData: PassyCore.SecureNFCTagParams?
+  public var actionGroupName: Swift.String?
+  public init(objectID: Foundation.UUID?, locationID: Swift.Int?, requestOrigin: PassyCore.RequestOrigin, objectIDReference: Foundation.UUID?, roomControllerNumber: Swift.Int?, beaconObjectNumber: Swift.Int?, secretCode: Swift.String?, secureNFCData: PassyCore.SecureNFCTagParams?, actionGroupName: Swift.String?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ActionData : Swift.Codable {
+  public var tenantID: Foundation.UUID?
+  public var lockID: Foundation.UUID?
+  public var ID: Foundation.UUID?
+  public var typeAction: PassyCore.ActionsType?
+  public var internalID: Swift.Int?
+  public var commandName: Swift.String?
+  public var param: Swift.String?
+  public var inverted: Swift.Bool?
+  public var paramList: Swift.String?
+  public var needConfirm: Swift.Bool?
+  public var groupName: Swift.String?
+  public var requireCheck: Swift.Bool?
+  public var isConfirmed: Swift.Bool?
+  public var isFake: Swift.Bool?
+  public var IDList: [PassyCore.IDListData]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum BluetoothError : Swift.Error {
+  case genericBluetoothError
+  case noHMACAvailable
+  case characteristicNotFound
+  case characteristicNotFoundInCache
+  case noBluetoothAvailable
+  public static func == (a: PassyCore.BluetoothError, b: PassyCore.BluetoothError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class Reservation : Swift.Codable {
+  public var companyID: Foundation.UUID?
+  public var reservationID: Foundation.UUID?
+  public var locationID: Swift.Int?
+  public var locationName: Swift.String?
+  public var startDate: Foundation.Date?
+  public var startDateLocal: Foundation.Date?
+  public var endDate: Foundation.Date?
+  public var endDateLocal: Foundation.Date?
+  public var checkInValidFrom: Foundation.Date?
+  public var checkInValidFromLocal: Foundation.Date?
+  public var checkOutValidUntil: Foundation.Date?
+  public var appointmentID: Swift.String?
+  public var appointmentUniqueID: Swift.String?
+  public var State: Swift.String?
+  public var description: Swift.String?
+  public var confirmed: Swift.Bool?
+  public var reservationGuests: [PassyCore.ReservationGuest]?
+  public var reservationProperties: [PassyCore.ReservationProperty]?
+  public var completedDate: Foundation.Date?
+  public var completedDateLocal: Foundation.Date?
+  public var accessID: Swift.Int?
+  public var automaticCheckIn: Swift.Bool?
+  public var brokerResponse: Swift.Int?
+  public var seats: Swift.Int?
+  public var verifyCheckIn: Swift.Bool?
+  public var reservationMaster: Foundation.UUID?
+  public var mobileRequest: PassyCore.MobileRequest?
+  public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class SHSData : Swift.Codable {
+  public var expiresUTC: Foundation.Date
+  public var refreshUTC: Foundation.Date?
+  public var secretBase64: Swift.String
+  public var secret: [Swift.UInt8] {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class WebAPIService : PassyCore.IWebAPIService {
+  public var loggerDelegate: (any PassyCore.IPassyLogger)? {
+    get
+    set(value)
+  }
+  @objc deinit
+}
+public enum TypeAction : Swift.Int, Swift.Codable {
+  case None
+  case Input
+  case Lock
+  case CheckInOut
+  case Reservation
+  case ReservationNow
+  case SignInSignOutHotDesk
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class LocationContainer : Swift.Codable {
+  public var locationInfo: PassyCore.LocationInfo?
+  public var accesses: [PassyCore.AccessData]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum ObjectType : Swift.Int, Swift.Codable {
+  case NotApplicable
+  case Generic
+  case SimonsVossLock
+  case ElectromechanicLock
+  case Turnstile
+  case Presence
+  case Input
+  case AXISLock
+  case Multibox
+  case HotSeat
+  case Room
+  case TVTCamera
+  case OpenSpace
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class RestClient {
+  public static let NSRequestErrorResponseReceived: Swift.String
+  public static let NSRequestErrorResponseMessage: Swift.String
+  public var dateDecodingStrategy: Foundation.JSONDecoder.DateDecodingStrategy {
+    get
+    set(value)
+  }
+  public init()
+  public func getAsync<T>(url: Swift.String, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
+  public func postAsync<T>(url: Swift.String, data: any Swift.Decodable & Swift.Encodable, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
+  public func putAsync<T>(url: Swift.String, data: any Swift.Decodable & Swift.Encodable, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
+  public func deleteAsync<T>(url: Swift.String, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
+  @objc deinit
+}
+public enum SmartkeyBluetoothConnectionState {
+  case unknown
+  case idle
+  case requested
+  case readOrganizationID
+  case readLockID
+  case readTimeStamp
+  case writeKeyset
+  case writePeripheralTimestamp
+  case writeHighWordHMAC
+  case writeLowWordHMAC
+  case endOfCommunication
+  case writeLockNumber
+  case waitingForFeedback
+  case faulted
+  case internalDriverError
+  public static func == (a: PassyCore.SmartkeyBluetoothConnectionState, b: PassyCore.SmartkeyBluetoothConnectionState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class AccessRepetitionData : Swift.Codable {
+  public var frequency: Swift.String?
+  public var interval: Swift.Int?
+  public var count: Swift.Int?
+  public var until: Swift.Int?
+  public var byDay: Swift.String?
+  public var byMonthDay: Swift.Int?
+  public var byMonth: Swift.Int?
+  public var bySetPos: Swift.Int?
+  public var WKST: Swift.String?
+  public var exDate: Foundation.Date?
+  public var recuredItID: Swift.Int?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct SmartkeysServiceUris {
+  public static var GetSmartkeysDefault: Swift.String
+  public static var MobileActionExecuteDefault: Swift.String
+  public static var GetLocationsDefault: Swift.String
+  public static var GetReservationsDefault: Swift.String
+  public static var ReservationSearchFreeRoomDefault: Swift.String
+  public static var CreateReservationDefault: Swift.String
+  public static var UpdateReservationDefault: Swift.String
+  public static var DeleteReservationDefault: Swift.String
+  public static var SearchUsersDefault: Swift.String
+  public static var SignInSignOutDefault: Swift.String
+  public let baseURI: Swift.String
+  public let webBaseURI: Swift.String?
+  public var getSmartkeysUri: Swift.String {
+    get
+  }
+  public var getLocations: Swift.String {
+    get
+  }
+  public var getReservations: Swift.String {
+    get
+  }
+  public var createReservation: Swift.String {
+    get
+  }
+  public var updateReservation: Swift.String {
+    get
+  }
+  public var deleteReservation: Swift.String {
+    get
+  }
+  public var mobileActionExecute: Swift.String {
+    get
+  }
+  public var signInSignOut: Swift.String {
+    get
+  }
+  public init(for baseURI: Swift.String, and webBaseURI: Swift.String? = nil)
+}
+extension Foundation.Data {
+  public func toUInt64(isBigEndian: Swift.Bool) -> Swift.UInt64
+  public func toByteArray() -> [Swift.UInt8]
+}
+public enum LogCategory : Swift.String {
+  case globalDefault
+  case ui
+  case autonomous
+  case NFC
+  case BLE
+  case location
+  case network
+  case storage
+  case execution
+  case reservation
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class ConfigurationServices : PassyCore.WebAPIService {
+  public static let DefaultConfigurationUri: Swift.String
+  public var configurationUri: Swift.String
+  public init(configurationUri: Swift.String = ConfigurationServices.DefaultConfigurationUri)
+  public func getTenantConfigurationAsync(tenantConfigurationRequestParameters: PassyCore.TenantConfigurationRequestParameters, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.TenantConfigurationData>) -> Swift.Void)) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SignInSignOutStatusResult : Swift.Codable {
+  public var companyID: Foundation.UUID?
+  public var keyID: Foundation.UUID?
+  public var userID: Swift.String?
+  public var eventType: PassyCore.SignInOutEventType?
+  public var eventTime: Foundation.Date?
+  public var isAutomatic: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class SmartKeyData : Swift.Codable {
+  public var tenantID: Foundation.UUID
+  public var organization: PassyCore.SmartkeyOrganizationData
+  public var SHS: PassyCore.SHSData
+  public var keyID: Foundation.UUID
+  public var keySelf: Swift.String
+  public var canBeRefreshed: Swift.Bool
+  public var canBeDeleted: Swift.Bool
+  public var canSpawnNewKey: Swift.Bool
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public protocol IBluetoothKeysResolver {
+  var count: Swift.Int { get }
+  func getKey(forOrganizationID organizationID: Foundation.UUID) -> (any PassyCore.IUserKeyData)?
+  func getKey(forKeyID keyID: Foundation.UUID) -> (any PassyCore.IUserKeyData)?
+}
+extension Foundation.ContiguousBytes {
+  public func toObject<T>() -> T
+}
+extension Swift.Array where Element == Swift.UInt8 {
+  public func toBase64() -> Swift.String
+}
+public class HttpOperationResult<T> {
+  public var httpStatus: PassyCore.HttpStatus {
+    get
+  }
+  public var httpStatusCode: Swift.Int {
+    get
+  }
+  public var result: T? {
+    get
+  }
+  public var contentString: Swift.String {
+    get
+  }
+  public var rawContent: [Swift.UInt8] {
+    get
+  }
+  public var exception: (any Swift.Error)? {
+    get
+  }
+  public var authToken: Swift.String {
+    get
+  }
+  convenience public init(status: PassyCore.HttpStatus)
+  convenience public init(error: any Swift.Error)
+  public init(statusCode: Swift.Int, result: T?, contentString: Swift.String, rawContent: [Swift.UInt8], authToken: Swift.String, error: (any Swift.Error)?)
+  @objc deinit
+}
+public protocol IUserKeyData {
+  var tenantID: Foundation.UUID { get }
+  var organizationID: Foundation.UUID { get }
+  var keyID: Foundation.UUID { get }
+  var creationDate: Foundation.Date { get }
+  var expirationDate: Foundation.Date { get }
+  var refreshDate: Foundation.Date { get }
+  var sharedSecret: [Swift.UInt8] { get }
+}
+public enum AccessCounterType : Swift.Int, Swift.Codable {
+  case CounterMaxAccesses
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum RuntimeError : Swift.Error {
+  case invalidArgument
+  case cannotParseValue
+  case nilObject
+  case serializationError
+  case deserializationError
+  public static func == (a: PassyCore.RuntimeError, b: PassyCore.RuntimeError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ApplicationCodeError : Swift.Error {
+  case notImplemented
+  case notSupported
+  case notSupportedByPlatform
+  case notInitialized
+  case unexpected(code: Swift.Int)
+}
+@_hasMissingDesignatedInitializers public class SmartkeyOrganizationData : Swift.Codable {
+  public var ID: Foundation.UUID
+  public var name: Swift.String
+  public var description: Swift.String?
+  public var logo: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum NFCTagRecordPayloadType : Swift.String {
+  case unknown
+  case text
+  case uri
+  case smartPoster
+  case alternativeCarrier
+  case handoverCarrier
+  case handoverRequest
+  case handoverSelect
+  case mediaTypeFormat
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ActionsType : Swift.Int, Swift.Codable {
+  case None
+  case Input
+  case Lock
+  case CheckInOut
+  case Reservation
+  case ReservationNow
+  case SignInSignOutHotDesk
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class SecureNFCTagParams : Swift.Codable {
+  public var UID: Swift.String
+  public var CTR: Swift.String
+  public var CMAC: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum LocationType : Swift.Int, Swift.Codable {
+  case EntranceGroup
+  case SecurityGroup
+  case GenericGroup
+  case Organization
+  case Building
+  case Table
+  case Section
+  case Floor
+  case MiddleLevel
+  case Turnstile
+  case NotALeaf
+  case Leaf
+  case Unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension Foundation.DateFormatter {
+  public static let iso8601Full: Foundation.DateFormatter
+  public static let iso8601: Foundation.DateFormatter
+}
+public enum RestAuthenticationTokenType {
+  case none
+  case currentDefault
+  case HMAC256
+  case HMAC512
+  public static func == (a: PassyCore.RestAuthenticationTokenType, b: PassyCore.RestAuthenticationTokenType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ComponentAvailability {
+  case Unknown
+  case Available
+  case NotSupportedByPlatform
+  case NotAvailable
+  public static func == (a: PassyCore.ComponentAvailability, b: PassyCore.ComponentAvailability) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class PassyTagPayload {
+  final public let payloadVersion: Swift.String
+  public var enabledSchemas: [Swift.String]
+  public var throwOnSchemaNotSupported: Swift.Bool {
+    get
+    set(value)
+  }
+  public var parsed: Swift.Bool {
+    get
+  }
+  public var timestamp: Foundation.Date {
+    get
+  }
+  public var id: Swift.String {
+    get
+  }
+  public var beaconMinor: Swift.UInt16 {
+    get
+  }
+  public var beaconMajor: Swift.UInt16 {
+    get
+  }
+  public var sourceUri: Swift.String? {
+    get
+  }
+  public var tagUID: Swift.String? {
+    get
+  }
+  public var tagCTR: Swift.String? {
+    get
+  }
+  public var tagCMAC: Swift.String? {
+    get
+  }
+  public init(sourceUri: Swift.String)
+  convenience public init(parsed: Swift.Bool, timestamp: Foundation.Date, id: Swift.String, beaconMinor: Swift.UInt16, beaconMajor: Swift.UInt16, sourceUri: Swift.String, tagUID: Swift.String, tagCTR: Swift.String, tagCMAC: Swift.String)
+  public func parse() throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ExecuteActionResult : Swift.Codable {
+  public var generalActionResult: PassyCore.GeneralActionResult?
+  public var actionGroups: [PassyCore.ActionGroupToActionUnlockList]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class SmartlockSecurityManager {
+  public init()
+  public func generateHMAC(organizationID: Foundation.UUID, lockIDBytes: [Swift.UInt8], keyID: Foundation.UUID, deltaTimestamp: Swift.UInt64, sharedSecret: [Swift.UInt8]) throws -> [Swift.UInt8]
+  public func generateBearerAuthorizationHeader(organizationID: Foundation.UUID, keyID: Foundation.UUID, sharedSecret: [Swift.UInt8]) throws -> Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SignInOutWithBeacon : Swift.Codable {
+  public var signInOut: PassyCore.SignInOutData
+  public var beaconRequest: PassyCore.RemoteRequestBeaconV2
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class SignInOutData : Swift.Codable {
+  public var eventType: PassyCore.SignInOutEventType
+  public var eventTime: Foundation.Date
+  public init(eventTime: Foundation.Date = TimeHelper.timestamp(), eventType: PassyCore.SignInOutEventType = .Unknown)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class ActionGroupToActionUnlockList : Swift.Codable {
+  public var groupName: Swift.String
+  public var groupDescriptionName: Swift.String?
+  public var actionsResultList: [PassyCore.CurrentExecuteActionResult]?
+  public init(groupName: Swift.String, actionsResultList: [PassyCore.CurrentExecuteActionResult])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class RemoteRequestBeaconV2 : Swift.Codable {
+  public var roomControllerID: Swift.Int?
+  public var serraturaID: Swift.Int?
+  public var secretCode: Swift.String?
+  public var openRequestOrigins: PassyCore.RequestOrigin
+  public init(roomControllerID: Swift.Int? = nil, serraturaID: Swift.Int? = nil, secretCode: Swift.String? = nil, openRequestOrigins: PassyCore.RequestOrigin = .Unknown)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension Foundation.UUID {
+  public func toData() -> Foundation.Data?
+  public static func fromData(uuidBuffer: Foundation.Data) -> Foundation.UUID
+}
+@_hasMissingDesignatedInitializers public class ActionResult : Swift.Codable {
+  public var result: Swift.String?
+  public var user: Swift.String?
+  public var company: Swift.String?
+  public var contact: Swift.String?
+  public var profile: Swift.String?
+  public var badgeNumber: Swift.String?
+  public var correlationID: Swift.String?
+  public var keyPhoneName: Swift.String?
+  public var accessMode: Swift.String?
+  public var accessResult: PassyCore.AccessResultCode?
+  public var accessResultString: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum SmartkeyBluetoothDeviceTypes : Swift.Int {
+  case Unknown
+  case RoomController
+  case iBeacon
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class ErrorResponse : Swift.Codable {
+  public var requestError: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public protocol IWebAPIService {
+  var loggerDelegate: (any PassyCore.IPassyLogger)? { get set }
+}
+public enum BluetoothDistances {
+  case Unknown
+  case Immediate
+  case VeryNear
+  case Near
+  case Far
+  public static func == (a: PassyCore.BluetoothDistances, b: PassyCore.BluetoothDistances) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class GeneralActionResult : Swift.Codable {
+  public var result: Swift.String?
+  public var user: Swift.String?
+  public var userID: Swift.String?
+  public var company: Swift.String?
+  public var contact: Swift.String?
+  public var location: Swift.String?
+  public var profile: Swift.String?
+  public var badgeNumber: Swift.String?
+  public var accessMode: Swift.String?
+  public var correlationID: Foundation.UUID?
+  public var accessResult: Swift.Int?
+  public var accessResultString: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct NFCReadException : Swift.Error {
+}
+public enum AccessResultCode : Swift.Int, Swift.Codable {
+  case None
+  case OK
+  case KeyDisabled
+  case KeyExpired
+  case KeyInvalidHMac
+  case NoPolicy
+  case PassBackKO
+  case CorrelateFailure
+  case CorrelateDuplicate
+  case BadgeNonDisponibile
+  case CounterCompleted
+  case NoPermission
+  case NoPermissionForLocation
+  case LocationNotEnabled
+  case KeyNotFound
+  case NoReservation
+  case ReservationIsCompleted
+  case CheckInAlreadyDone
+  case CheckOutAlreadyDone
+  case CheckOutNotPossible
+  case OggettoIsDisabled
+  case NoChildOfMultibox
+  case NoPermissionForLocationOfChildOfMultibox
+  case NoPermissionWithThisModalityRequest
+  case HotSeatNotAssignedToUser
+  case SignInDeskAlreadyDone
+  case SignOutDeskAlreadyDone
+  case SignOutNotPossible
+  case BlockForCovidPolicy
+  case NoFreeObjects
+  case RcOffline
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers public class SmartkeysServices : PassyCore.PassyWebAPIService {
+  public func getSmartkeysAsync(pnsID: Foundation.UUID?, organizationList: [Foundation.UUID], deviceName: Swift.String?, deviceCode: Swift.String?, useSecureEndpoint: Swift.Bool, authorizationHeader: Swift.String, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.GetSmartkeysResult>) -> Swift.Void)) throws
+  override public init(smartkeysServiceUris: PassyCore.SmartkeysServiceUris)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class SmartkeyReservationsServices : PassyCore.PassyWebAPIService {
+  override public init(smartkeysServiceUris: PassyCore.SmartkeysServiceUris)
+  public func getReservations(reservationID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
+  public func getReservations(startDate: Foundation.Date?, endDate: Foundation.Date?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
+  public func getReservations(queryString: Swift.String, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
+  public func createReservation(locationID: Swift.Int?, startDate: Foundation.Date?, endDate: Foundation.Date?, description: Swift.String?, seats: Swift.Int?, reservationGuests: [PassyCore.ReservationGuest]?, mobileRequest: PassyCore.MobileRequest, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
+  public func updateReservation(reservationID: Foundation.UUID, startDate: Foundation.Date?, endDate: Foundation.Date?, description: Swift.String?, seats: Swift.Int?, reservationGuests: [PassyCore.ReservationGuest]?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
+  public func deleteReservation(reservationID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
+  public func signInOrSignOut(requestTime: Foundation.Date, roomControllerID: Swift.Int, beaconID: Swift.Int?, secretCode: Swift.String?, eventType: PassyCore.SignInOutEventType, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<Swift.Bool?>) -> Swift.Void)) throws
+  public func getSignInSignOutStatus(onlyLast: Swift.Bool, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.SignInSignOutStatusResult>) -> Swift.Void)) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class IDListData : Swift.Codable {
+  public var ID: Foundation.UUID
+  public var name: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class CurrentExecuteActionResult : Swift.Codable {
+  public var action: PassyCore.ActionData?
+  public var requestedActionResult: PassyCore.ActionResult?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum HttpStatus : Swift.Int {
+  case unknown
+  case OK
+  case created
+  case accepted
+  case nonAuthoritativeInformation
+  case multipleChoices
+  case movedPermanently
+  case found
+  case badRequest
+  case unauthorized
+  case forbidden
+  case notFound
+  case methodNotAllowed
+  case notAcceptable
+  case requestTimeout
+  case gone
+  case payloadTooLarge
+  case internalServerError
+  case notImplemented
+  case badGateway
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol IOrganizationData {
+  var organizationID: Foundation.UUID { get }
+  var tenantID: Foundation.UUID { get }
+  var name: Swift.String { get }
+}
+public class RestConnectionParameters {
+  public var authenticationTokenType: PassyCore.RestAuthenticationTokenType
+  public var authenticationToken: Swift.String {
+    get
+  }
+  public var additionalHeaders: [Swift.String : Swift.String] {
+    get
+  }
+  convenience public init()
+  public init(authenticationTokenType: PassyCore.RestAuthenticationTokenType, authenticationToken: Swift.String)
+  public func getAuthenticationHeader() throws -> Swift.String
+  public func addAPIVersionHeader(apiVersion: PassyCore.WebAPIVersion)
+  @objc deinit
+}
+public class ReservationProperty : Swift.Codable {
+  public var reservationID: Foundation.UUID?
+  public var value: Swift.String?
+  public var mandatory: Swift.Bool?
+  public var weight: Swift.Double
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class MessageResponse : Swift.Codable {
+  public var message: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ReservationResponse : Swift.Codable {
+  public var objectSelf: Swift.String?
+  public var reservationId: Foundation.UUID?
+  public var attendBroker: Swift.Bool?
+  public var completed: Swift.Bool?
+  public var message: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum LogMessageLevel : Swift.Int {
+  case off
+  case trace
+  case debug
+  case info
+  case warning
+  case error
+  case fatal
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension Swift.UInt16 {
+  public var bytes: [Swift.UInt8] {
+    get
+  }
+}
+extension Swift.UInt32 {
+  public init(bytes: [Swift.UInt8])
+}
+extension Swift.UInt64 {
+  public func toData() -> Foundation.Data
+  public func fromData(valueBuffer: Foundation.Data, isBigEndian: Swift.Bool) -> Swift.UInt64
+}
+public class BluetoothKeysResolver : PassyCore.IBluetoothKeysResolver {
+  public var count: Swift.Int {
+    get
+  }
+  public init?(keysCollection: [any PassyCore.IUserKeyData])
+  public func getKey(forOrganizationID organizationID: Foundation.UUID) -> (any PassyCore.IUserKeyData)?
+  public func getKey(forKeyID keyID: Foundation.UUID) -> (any PassyCore.IUserKeyData)?
+  @objc deinit
+}
+public enum LogEvent : Swift.String {
+  case httpMessageTranslation
+  case globalDefault
+  case permissionDenied
+  case uiRefresh
+  case keyEnrollment
+  case getLocations
+  case executeAction
+  case executeActionBluetooth
+  case cannotRetrieveReservations
+  case reservationsRetrieved
+  case reservationCreated
+  case reservationUpdated
+  case reservationDeleted
+  case bleAvailable
+  case bleUnavailable
+  case bleStartScan
+  case bleStopScan
+  case bleConnect
+  case NFCReceived
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class GetSmartKeysParams : Swift.Codable, Swift.CustomStringConvertible {
+  public var pnsId: Foundation.UUID?
+  public var organizationIDs: [Foundation.UUID]
+  public var deviceName: Swift.String?
+  public var deviceCode: Swift.String?
+  convenience public init(organizationIDs: [Foundation.UUID])
+  convenience public init(organizationIDs: [Foundation.UUID], deviceName: Swift.String)
+  public init(pnsID: Foundation.UUID?, organizationIDs: [Foundation.UUID], deviceName: Swift.String?, deviceCode: Swift.String?)
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum RequestOrigin : Swift.Int, Swift.Codable {
+  case Unknown
+  case AdvertisingRC
+  case Beacon
+  case NFC
+  case Favorites
+  case Browser
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class WebAPIVersionHTTPHeader {
+  final public let DefaultHeaderName: Swift.String
+  final public let API1Literal: Swift.String
+  final public let API2Literal: Swift.String
+  final public let API3Literal: Swift.String
+  final public let API4Literal: Swift.String
+  final public let API5Literal: Swift.String
+  final public let API6Literal: Swift.String
+  public var defined: Swift.Bool {
+    get
+  }
+  public var webAPIVersion: PassyCore.WebAPIVersion {
+    get
+  }
+  public var headerName: Swift.String {
+    get
+  }
+  public var headerValue: Swift.String {
+    get
+  }
+  public init(forAPI webAPIVersion: PassyCore.WebAPIVersion)
+  @objc deinit
+}
+public struct TenantConfigurationRequestParameters : Swift.Codable, Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public init(for company: Swift.String) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum NFCError : Swift.Error {
+  case schemaNotSupported
+  case invalidFormat
+  case formatNotSupported
+  public static func == (a: PassyCore.NFCError, b: PassyCore.NFCError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ServiceResultCode {
+  case Ok
+  case ApplicationError
+  case UnknownError
+  case HttpError
+  case NoResponse
+  case NoPermissions
+  case NotFound
+  case InvalidData
+  case ShsNotAccepted
+  case ShsExpired
+  case NoKeysAvailable
+  case OperationCanceled
+  public static func == (a: PassyCore.ServiceResultCode, b: PassyCore.ServiceResultCode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum WebAPIVersion : Swift.Int, Swift.Codable {
+  case NotDefined
+  case API1
+  case API2
+  case API3
+  case API4
+  case API5
+  case API6
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct Queue<T> {
+  public var values: [T] {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public var first: T? {
+    get
+  }
+  public var last: T? {
+    get
+  }
+  public init()
+  public mutating func enqueue(item: T)
+  public mutating func dequeue() -> T?
+}
+public protocol IPassyLogger {
+  var enabled: Swift.Bool { get set }
+  var minimumLogLevel: PassyCore.LogMessageLevel { get set }
+  var maximumLogLevel: PassyCore.LogMessageLevel { get set }
+  func log(_ message: Swift.String, messageLevel: PassyCore.LogMessageLevel, event: Swift.String?, forCategory category: Swift.String?, withExtra extra: Swift.String?)
+}
+@_hasMissingDesignatedInitializers public class BluetoothDeviceHelper {
+  public static func containsControlNumber(_ advertisedName: Swift.String) -> Swift.Bool
+  public static func getRoomControllerNumber(major: Swift.UInt16, minor: Swift.UInt16) -> Swift.UInt32
+  public static func getBeaconID(minor: Swift.UInt16) -> Swift.UInt8
+  public static func getRoomControllerIdentificationData(_ advertisedName: Swift.String) -> Swift.String?
+  public static func getRoomControllerNumber(_ advertisedName: Swift.String) -> Swift.Int?
+  public static func getControlNumber(_ advertisedName: Swift.String) -> Swift.String?
+  @objc deinit
+}
+public class ServiceOperationResult<T> : Swift.CustomStringConvertible {
+  public var isSucceeded: Swift.Bool {
+    get
+  }
+  public var code: PassyCore.ServiceResultCode {
+    get
+  }
+  public var authenticationToken: Swift.String {
+    get
+  }
+  public var rawData: Swift.String {
+    get
+  }
+  public var httpStatusCode: Swift.Int {
+    get
+  }
+  public var error: (any Swift.Error)? {
+    get
+  }
+  public var result: T? {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  convenience public init(result: T?, code: PassyCore.ServiceResultCode, error: (any Swift.Error)?)
+  public init(result: T?, code: PassyCore.ServiceResultCode, error: (any Swift.Error)?, rawData: Swift.String, httpStatusCode: Swift.Int, authenticationToken: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GroupActionItemDetails : Swift.Codable {
+  public var actionType: PassyCore.TypeAction?
+  public var actionID: Foundation.UUID?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class GetLocationsParameters {
+  public var getAll: Swift.Bool?
+  public var getAccess: Swift.Bool?
+  public var getWithoutAccess: Swift.Bool?
+  public var getIfNotOpenable: Swift.Bool?
+  public var getActions: Swift.Bool?
+  public var setHierarchy: Swift.Bool?
+  convenience public init()
+  public init(withGetAll getAll: Swift.Bool?, getAccess: Swift.Bool?, getWithoutAccess: Swift.Bool?, getIfNotOpenable: Swift.Bool?, getActions: Swift.Bool?, setHierarchy: Swift.Bool?)
+  public func buildURIQuery() -> Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SingletonInstancesBag {
+  public static func get<T>() -> T? where T : AnyObject
+  public static func add<T>(instance: Swift.AnyObject, forType: T.Type) where T : AnyObject
+  public static func exists<T>(for currentType: T.Type) -> Swift.Bool where T : AnyObject
+  public static func remove()
+  @objc deinit
+}
+extension PassyCore.SignInOutEventType : Swift.Equatable {}
+extension PassyCore.SignInOutEventType : Swift.Hashable {}
+extension PassyCore.SignInOutEventType : Swift.RawRepresentable {}
+extension PassyCore.ReservationRole : Swift.Equatable {}
+extension PassyCore.ReservationRole : Swift.Hashable {}
+extension PassyCore.ReservationRole : Swift.RawRepresentable {}
+extension PassyCore.BluetoothError : Swift.Equatable {}
+extension PassyCore.BluetoothError : Swift.Hashable {}
+extension PassyCore.TypeAction : Swift.Equatable {}
+extension PassyCore.TypeAction : Swift.Hashable {}
+extension PassyCore.TypeAction : Swift.RawRepresentable {}
+extension PassyCore.ObjectType : Swift.Equatable {}
+extension PassyCore.ObjectType : Swift.Hashable {}
+extension PassyCore.ObjectType : Swift.RawRepresentable {}
+extension PassyCore.SmartkeyBluetoothConnectionState : Swift.Equatable {}
+extension PassyCore.SmartkeyBluetoothConnectionState : Swift.Hashable {}
+extension PassyCore.LogCategory : Swift.Equatable {}
+extension PassyCore.LogCategory : Swift.Hashable {}
+extension PassyCore.LogCategory : Swift.RawRepresentable {}
+extension PassyCore.AccessCounterType : Swift.Equatable {}
+extension PassyCore.AccessCounterType : Swift.Hashable {}
+extension PassyCore.AccessCounterType : Swift.RawRepresentable {}
+extension PassyCore.RuntimeError : Swift.Equatable {}
+extension PassyCore.RuntimeError : Swift.Hashable {}
+extension PassyCore.NFCTagRecordPayloadType : Swift.Equatable {}
+extension PassyCore.NFCTagRecordPayloadType : Swift.Hashable {}
+extension PassyCore.NFCTagRecordPayloadType : Swift.RawRepresentable {}
+extension PassyCore.ActionsType : Swift.Equatable {}
+extension PassyCore.ActionsType : Swift.Hashable {}
+extension PassyCore.ActionsType : Swift.RawRepresentable {}
+extension PassyCore.LocationType : Swift.Equatable {}
+extension PassyCore.LocationType : Swift.Hashable {}
+extension PassyCore.LocationType : Swift.RawRepresentable {}
+extension PassyCore.RestAuthenticationTokenType : Swift.Equatable {}
+extension PassyCore.RestAuthenticationTokenType : Swift.Hashable {}
+extension PassyCore.ComponentAvailability : Swift.Equatable {}
+extension PassyCore.ComponentAvailability : Swift.Hashable {}
+extension PassyCore.SmartkeyBluetoothDeviceTypes : Swift.Equatable {}
+extension PassyCore.SmartkeyBluetoothDeviceTypes : Swift.Hashable {}
+extension PassyCore.SmartkeyBluetoothDeviceTypes : Swift.RawRepresentable {}
+extension PassyCore.BluetoothDistances : Swift.Equatable {}
+extension PassyCore.BluetoothDistances : Swift.Hashable {}
+extension PassyCore.AccessResultCode : Swift.Equatable {}
+extension PassyCore.AccessResultCode : Swift.Hashable {}
+extension PassyCore.AccessResultCode : Swift.RawRepresentable {}
+extension PassyCore.HttpStatus : Swift.Equatable {}
+extension PassyCore.HttpStatus : Swift.Hashable {}
+extension PassyCore.HttpStatus : Swift.RawRepresentable {}
+extension PassyCore.LogMessageLevel : Swift.Equatable {}
+extension PassyCore.LogMessageLevel : Swift.Hashable {}
+extension PassyCore.LogMessageLevel : Swift.RawRepresentable {}
+extension PassyCore.LogEvent : Swift.Equatable {}
+extension PassyCore.LogEvent : Swift.Hashable {}
+extension PassyCore.LogEvent : Swift.RawRepresentable {}
+extension PassyCore.RequestOrigin : Swift.Equatable {}
+extension PassyCore.RequestOrigin : Swift.Hashable {}
+extension PassyCore.RequestOrigin : Swift.RawRepresentable {}
+extension PassyCore.NFCError : Swift.Equatable {}
+extension PassyCore.NFCError : Swift.Hashable {}
+extension PassyCore.ServiceResultCode : Swift.Equatable {}
+extension PassyCore.ServiceResultCode : Swift.Hashable {}
+extension PassyCore.WebAPIVersion : Swift.Equatable {}
+extension PassyCore.WebAPIVersion : Swift.Hashable {}
+extension PassyCore.WebAPIVersion : Swift.RawRepresentable {}
