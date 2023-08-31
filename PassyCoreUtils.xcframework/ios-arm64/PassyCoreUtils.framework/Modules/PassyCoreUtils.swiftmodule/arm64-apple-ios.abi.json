@@ -1,0 +1,1270 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils"
+      },
+      {
+        "kind": "Import",
+        "name": "PassyCore",
+        "printedName": "PassyCore",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartkeyDeviceBLEScannerDelegate",
+        "printedName": "SmartkeyDeviceBLEScannerDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "devices",
+            "printedName": "devices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PassyCore.SmartkeyBluetoothDevice]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartkeyBluetoothDevice",
+                    "printedName": "PassyCore.SmartkeyBluetoothDevice",
+                    "usr": "s:9PassyCore23SmartkeyBluetoothDeviceC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP7devicesSay0aB00d9BluetoothE0CGvp",
+            "mangledName": "$s14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP7devicesSay0aB00d9BluetoothE0CGvp",
+            "moduleName": "PassyCoreUtils",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PassyCore.SmartkeyBluetoothDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartkeyBluetoothDevice",
+                        "printedName": "PassyCore.SmartkeyBluetoothDevice",
+                        "usr": "s:9PassyCore23SmartkeyBluetoothDeviceC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP7devicesSay0aB00d9BluetoothE0CGvg",
+                "mangledName": "$s14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP7devicesSay0aB00d9BluetoothE0CGvg",
+                "moduleName": "PassyCoreUtils",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+                "sugared_genericSig": "<Self where Self : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didDeviceDiscovered",
+            "printedName": "didDeviceDiscovered(smartkeyDevice:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartkeyBluetoothDevice",
+                "printedName": "PassyCore.SmartkeyBluetoothDevice",
+                "usr": "s:9PassyCore23SmartkeyBluetoothDeviceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP03didE10Discovered08smartkeyE09timestampy0aB00d9BluetoothE0C_10Foundation4DateVtF",
+            "mangledName": "$s14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP03didE10Discovered08smartkeyE09timestampy0aB00d9BluetoothE0C_10Foundation4DateVtF",
+            "moduleName": "PassyCoreUtils",
+            "genericSig": "<τ_0_0 where τ_0_0 : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+            "sugared_genericSig": "<Self where Self : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDeviceDiscovered",
+            "printedName": "didDeviceDiscovered(forDevices:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PassyCore.SmartkeyBluetoothDevice]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartkeyBluetoothDevice",
+                    "printedName": "PassyCore.SmartkeyBluetoothDevice",
+                    "usr": "s:9PassyCore23SmartkeyBluetoothDeviceC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP03didE10Discovered10forDevices9timestampySay0aB00d9BluetoothE0CG_10Foundation4DateVtF",
+            "mangledName": "$s14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP03didE10Discovered10forDevices9timestampySay0aB00d9BluetoothE0CG_10Foundation4DateVtF",
+            "moduleName": "PassyCoreUtils",
+            "genericSig": "<τ_0_0 where τ_0_0 : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+            "sugared_genericSig": "<Self where Self : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationNotAvailableForAuthStatus",
+            "printedName": "locationNotAvailableForAuthStatus(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP33locationNotAvailableForAuthStatus6statusySo015CLAuthorizationM0V_tF",
+            "mangledName": "$s14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP33locationNotAvailableForAuthStatus6statusySo015CLAuthorizationM0V_tF",
+            "moduleName": "PassyCoreUtils",
+            "genericSig": "<τ_0_0 where τ_0_0 : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+            "sugared_genericSig": "<Self where Self : PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP",
+        "mangledName": "$s14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP",
+        "moduleName": "PassyCoreUtils",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils"
+      },
+      {
+        "kind": "Import",
+        "name": "PassyCore",
+        "printedName": "PassyCore",
+        "declKind": "Import",
+        "moduleName": "PassyCoreUtils"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartkeyDeviceBLEScanner",
+        "printedName": "SmartkeyDeviceBLEScanner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartkeyDeviceBLEScannerDelegate",
+                    "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate",
+                    "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvp",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvp",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartkeyDeviceBLEScannerDelegate",
+                        "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate",
+                        "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvg",
+                "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvg",
+                "moduleName": "PassyCoreUtils",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartkeyDeviceBLEScannerDelegate",
+                        "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate",
+                        "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvs",
+                "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvs",
+                "moduleName": "PassyCoreUtils",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvM",
+                "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8delegateAA0deF8Delegate_pSgvM",
+                "moduleName": "PassyCoreUtils",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanning",
+            "printedName": "scanning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8scanningSbvp",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8scanningSbvp",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8scanningSbvg",
+                "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8scanningSbvg",
+                "moduleName": "PassyCoreUtils",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "regionMonitoringEnabled",
+            "printedName": "regionMonitoringEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC23regionMonitoringEnabledSbvp",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC23regionMonitoringEnabledSbvp",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC23regionMonitoringEnabledSbvg",
+                "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC23regionMonitoringEnabledSbvg",
+                "moduleName": "PassyCoreUtils",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "centralManager",
+            "printedName": "centralManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreBluetooth.CBCentralManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC14centralManagerSo09CBCentralH0CSgvp",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC14centralManagerSo09CBCentralH0CSgvp",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreBluetooth.CBCentralManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBCentralManager",
+                        "printedName": "CoreBluetooth.CBCentralManager",
+                        "usr": "c:objc(cs)CBCentralManager"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC14centralManagerSo09CBCentralH0CSgvg",
+                "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC14centralManagerSo09CBCentralH0CSgvg",
+                "moduleName": "PassyCoreUtils",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartkeyDeviceBLEScanner",
+                "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScanner",
+                "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartkeyDeviceBLEScannerDelegate",
+                    "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate",
+                    "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC12withDelegateAcA0defH0_pSg_tcfc",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC12withDelegateAcA0defH0_pSg_tcfc",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeComponents",
+            "printedName": "initializeComponents()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC20initializeComponentsyyF",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC20initializeComponentsyyF",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "newInstace",
+            "printedName": "newInstace(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartkeyDeviceBLEScanner",
+                "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScanner",
+                "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartkeyDeviceBLEScannerDelegate",
+                    "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScannerDelegate",
+                    "usr": "s:14PassyCoreUtils32SmartkeyDeviceBLEScannerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC10newInstace8delegateAcA0deF8Delegate_pSg_tFZ",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC10newInstace8delegateAcA0deF8Delegate_pSg_tFZ",
+            "moduleName": "PassyCoreUtils",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startScan",
+            "printedName": "startScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC9startScanSbyF",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC9startScanSbyF",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScan",
+            "printedName": "stopScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PassyCoreUtils24SmartkeyDeviceBLEScannerC8stopScanSbyF",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC8stopScanSbyF",
+            "moduleName": "PassyCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didRange:satisfying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconIdentityConstraint",
+                "printedName": "CoreLocation.CLBeaconIdentityConstraint",
+                "usr": "c:objc(cs)CLBeaconIdentityConstraint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner(im)locationManager:didRangeBeacons:satisfyingConstraint:",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC15locationManager_8didRange10satisfyingySo010CLLocationH0C_SaySo8CLBeaconCGSo0M18IdentityConstraintCtF",
+            "moduleName": "PassyCoreUtils",
+            "objc_name": "locationManager:didRangeBeacons:satisfyingConstraint:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didDetermineState:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegionState",
+                "printedName": "CoreLocation.CLRegionState",
+                "usr": "c:@E@CLRegionState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner(im)locationManager:didDetermineState:forRegion:",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC15locationManager_17didDetermineState3forySo010CLLocationH0C_So08CLRegionK0VSo0N0CtF",
+            "moduleName": "PassyCoreUtils",
+            "objc_name": "locationManager:didDetermineState:forRegion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManagerDidUpdateState",
+            "printedName": "centralManagerDidUpdateState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner(im)centralManagerDidUpdateState:",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC28centralManagerDidUpdateStateyySo09CBCentralH0CF",
+            "moduleName": "PassyCoreUtils",
+            "objc_name": "centralManagerDidUpdateState:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didDiscover:advertisementData:rssi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC14centralManager_11didDiscover17advertisementData4rssiySo09CBCentralH0C_So12CBPeripheralCSDySSypGSo8NSNumberCtF",
+            "moduleName": "PassyCoreUtils",
+            "objc_name": "centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartkeyDeviceBLEScanner",
+                "printedName": "PassyCoreUtils.SmartkeyDeviceBLEScanner",
+                "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner(im)init",
+            "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerCACycfc",
+            "moduleName": "PassyCoreUtils",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PassyCoreUtils@objc(cs)SmartkeyDeviceBLEScanner",
+        "mangledName": "$s14PassyCoreUtils24SmartkeyDeviceBLEScannerC",
+        "moduleName": "PassyCoreUtils",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 38,
+      "value": "\"B52A0E69-72E7-4D1F-848F-26D6678AA11D\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 38,
+      "value": "\"5CC22278-128E-4FC6-A5E5-406DFFA95097\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 19,
+      "value": "\"PassyBeaconRegion\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 888,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 943,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 2324,
+      "length": 48,
+      "value": "\"Cannot start scanning without location manager\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 42,
+      "value": "\"Bluetooth central manager not available.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "Array",
+      "offset": 2892,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3206,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 3249,
+      "length": 48,
+      "value": "\"Registering BLE scanner as bluetooth delegate.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3485,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4116,
+      "length": 39,
+      "value": "\"Location is authorized always by user\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4275,
+      "length": 44,
+      "value": "\"Location is authorized when in use by user\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4663,
+      "length": 63,
+      "value": "\"Location is not determined, restricted or denied by the user.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4932,
+      "length": 49,
+      "value": "\"Location state is \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 4964,
+      "length": 1,
+      "value": "\". Cannot locate.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 5410,
+      "length": 37,
+      "value": "\"Cannot generate beacon region UUID.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5807,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 5980,
+      "length": 65,
+      "value": "\"Stopping monitoring region \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 6044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6436,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 6472,
+      "length": 36,
+      "value": "\"Beacon region mnonitoring enabled.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 6610,
+      "length": 65,
+      "value": "\"Cannot start beacon monitoring. The beacon constraints are nil.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 6923,
+      "length": 48,
+      "value": "\"Cannot start scanning without location manager\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6992,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 7125,
+      "length": 42,
+      "value": "\"Bluetooth central manager not available.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7281,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7341,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7520,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7560,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8180,
+      "length": 38,
+      "value": "\"Region \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8208,
+      "length": 7,
+      "value": "\" entered.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8292,
+      "length": 37,
+      "value": "\"Region \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8320,
+      "length": 6,
+      "value": "\" leaved.\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8403,
+      "length": 47,
+      "value": "\"Unknown state for region \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8449,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8518,
+      "length": 48,
+      "value": "\"State \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8533,
+      "length": 3,
+      "value": "\" for region \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8565,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8819,
+      "length": 18,
+      "value": "\"Scanning started\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 8894,
+      "length": 25,
+      "value": "\"Bluetooth not available\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "Array",
+      "offset": 11249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 13840,
+      "length": 21,
+      "value": "\"kCBAdvDataLocalName\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreUtils\/PassyCoreUtils\/hardware\/bluetooth\/SmartkeyDeviceBLEScanner.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 24,
+      "value": "\"PassyCoreUtils.SmartkeyDeviceBLEScanner\""
+    }
+  ]
+}
