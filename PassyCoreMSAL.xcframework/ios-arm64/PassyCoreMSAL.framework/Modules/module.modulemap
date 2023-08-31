@@ -1,0 +1,11 @@
+framework module PassyCoreMSAL {
+  umbrella header "PassyCoreMSAL.h"
+
+  export *
+  module * { export * }
+}
+
+module PassyCoreMSAL.Swift {
+  header "PassyCoreMSAL-Swift.h"
+  requires objc
+}

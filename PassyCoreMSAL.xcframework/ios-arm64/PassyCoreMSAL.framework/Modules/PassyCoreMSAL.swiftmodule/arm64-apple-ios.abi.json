@@ -1,0 +1,1985 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreMSAL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MSAL",
+        "printedName": "MSAL",
+        "declKind": "Import",
+        "moduleName": "PassyCoreMSAL"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PassyCoreMSAL"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSALServices",
+        "printedName": "MSALServices",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "additionalScopes",
+            "printedName": "additionalScopes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvg",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvs",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC16additionalScopesSaySSGvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useTenantIDForAuthority",
+            "printedName": "useTenantIDForAuthority",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvg",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvs",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC23useTenantIDForAuthoritySbvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tenantID",
+            "printedName": "tenantID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvg",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvs",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC8tenantID10Foundation4UUIDVSgvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceID",
+            "printedName": "resourceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC10resourceIDSSvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC10resourceIDSSvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC10resourceIDSSvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC10resourceIDSSvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC10resourceIDSSvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC10resourceIDSSvs",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC10resourceIDSSvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC10resourceIDSSvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientID",
+            "printedName": "clientID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC8clientIDSSvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC8clientIDSSvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC8clientIDSSvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC8clientIDSSvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC8clientIDSSvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC8clientIDSSvs",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC8clientIDSSvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC8clientIDSSvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authority",
+            "printedName": "authority",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC9authoritySSvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC9authoritySSvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC9authoritySSvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC9authoritySSvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC9authoritySSvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC9authoritySSvs",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC9authoritySSvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC9authoritySSvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectURI",
+            "printedName": "redirectURI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC11redirectURISSvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC11redirectURISSvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC11redirectURISSvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC11redirectURISSvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC11redirectURISSvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC11redirectURISSvs",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC11redirectURISSvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC11redirectURISSvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvp",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvg",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvs",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvs",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvM",
+                "mangledName": "$s13PassyCoreMSAL12MSALServicesC14viewControllerSo06UIViewF0CSgvM",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resourceID:clientID:authority:redirectURI:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSALServices",
+                "printedName": "PassyCoreMSAL.MSALServices",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC10resourceID06clientF09authority11redirectURIACSS_S3Stcfc",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC10resourceID06clientF09authority11redirectURIACSS_S3Stcfc",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resourceID:clientID:authority:redirectURI:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSALServices",
+                "printedName": "PassyCoreMSAL.MSALServices",
+                "usr": "s:13PassyCoreMSAL12MSALServicesC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC10resourceID06clientF09authority11redirectURI4withACSS_S3SSo16UIViewControllerCtcfc",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC10resourceID06clientF09authority11redirectURI4withACSS_S3SSo16UIViewControllerCtcfc",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "handleCallbackURI",
+            "printedName": "handleCallbackURI(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC17handleCallbackURI3urly10Foundation3URLV_tFZ",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC17handleCallbackURI3urly10Foundation3URLV_tFZ",
+            "moduleName": "PassyCoreMSAL",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticateAsync",
+            "printedName": "authenticateAsync(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCoreMSAL.AuthenticationProviderResponse, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(PassyCoreMSAL.AuthenticationProviderResponse, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationProviderResponse",
+                        "printedName": "PassyCoreMSAL.AuthenticationProviderResponse",
+                        "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PassyCoreMSAL12MSALServicesC17authenticateAsync4withyyAA30AuthenticationProviderResponseC_s5Error_pSgtc_tKF",
+            "mangledName": "$s13PassyCoreMSAL12MSALServicesC17authenticateAsync4withyyAA30AuthenticationProviderResponseC_s5Error_pSgtc_tKF",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13PassyCoreMSAL12MSALServicesC",
+        "mangledName": "$s13PassyCoreMSAL12MSALServicesC",
+        "moduleName": "PassyCoreMSAL",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreMSAL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthenticationProviderResponse",
+        "printedName": "AuthenticationProviderResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "providedName",
+            "printedName": "providedName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC12providedNameSSSgvp",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC12providedNameSSSgvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC12providedNameSSSgvg",
+                "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC12providedNameSSSgvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC5tokenSSSgvp",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC5tokenSSSgvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC5tokenSSSgvg",
+                "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC5tokenSSSgvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationHeader",
+            "printedName": "authenticationHeader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC20authenticationHeaderSSSgvp",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC20authenticationHeaderSSSgvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC20authenticationHeaderSSSgvg",
+                "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC20authenticationHeaderSSSgvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canceled",
+            "printedName": "canceled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC8canceledSbvp",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC8canceledSbvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC8canceledSbvg",
+                "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC8canceledSbvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFaulted",
+            "printedName": "isFaulted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC9isFaultedSbvp",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC9isFaultedSbvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC9isFaultedSbvg",
+                "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC9isFaultedSbvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faultError",
+            "printedName": "faultError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC10faultErrors0H0_pSgvp",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC10faultErrors0H0_pSgvp",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC10faultErrors0H0_pSgvg",
+                "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC10faultErrors0H0_pSgvg",
+                "moduleName": "PassyCoreMSAL",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(providedName:token:authenticationHeader:canceled:isFaulted:faultError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationProviderResponse",
+                "printedName": "PassyCoreMSAL.AuthenticationProviderResponse",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC12providedName5token20authenticationHeader8canceled9isFaulted10faultErrorACSSSg_A2JS2bs0P0_pSgtcfc",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC12providedName5token20authenticationHeader8canceled9isFaulted10faultErrorACSSSg_A2JS2bs0P0_pSgtcfc",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(providedName:token:authenticationHeader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationProviderResponse",
+                "printedName": "PassyCoreMSAL.AuthenticationProviderResponse",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC12providedName5token20authenticationHeaderACSS_S2Stcfc",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC12providedName5token20authenticationHeaderACSS_S2Stcfc",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(faultError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationProviderResponse",
+                "printedName": "PassyCoreMSAL.AuthenticationProviderResponse",
+                "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC10faultErrorACs0H0_p_tcfc",
+            "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC10faultErrorACs0H0_p_tcfc",
+            "moduleName": "PassyCoreMSAL",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13PassyCoreMSAL30AuthenticationProviderResponseC",
+        "mangledName": "$s13PassyCoreMSAL30AuthenticationProviderResponseC",
+        "moduleName": "PassyCoreMSAL",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCoreMSAL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PassyCoreMSALError",
+        "printedName": "PassyCoreMSALError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "presentationViewControllerNotProvided",
+            "printedName": "presentationViewControllerNotProvided",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCoreMSAL.PassyCoreMSALError.Type) -> PassyCoreMSAL.PassyCoreMSALError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassyCoreMSALError",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                    "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PassyCoreMSALError",
+                        "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                        "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO37presentationViewControllerNotProvidedyA2CmF",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO37presentationViewControllerNotProvidedyA2CmF",
+            "moduleName": "PassyCoreMSAL"
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationDataNotReceived",
+            "printedName": "authenticationDataNotReceived",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCoreMSAL.PassyCoreMSALError.Type) -> PassyCoreMSAL.PassyCoreMSALError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassyCoreMSALError",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                    "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PassyCoreMSALError",
+                        "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                        "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO29authenticationDataNotReceivedyA2CmF",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO29authenticationDataNotReceivedyA2CmF",
+            "moduleName": "PassyCoreMSAL"
+          },
+          {
+            "kind": "Var",
+            "name": "tenantIDRequestedForCurrentConfiguration",
+            "printedName": "tenantIDRequestedForCurrentConfiguration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCoreMSAL.PassyCoreMSALError.Type) -> PassyCoreMSAL.PassyCoreMSALError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassyCoreMSALError",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                    "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PassyCoreMSALError",
+                        "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                        "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO40tenantIDRequestedForCurrentConfigurationyA2CmF",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO40tenantIDRequestedForCurrentConfigurationyA2CmF",
+            "moduleName": "PassyCoreMSAL"
+          },
+          {
+            "kind": "Var",
+            "name": "cannotCreateMSALAuthority",
+            "printedName": "cannotCreateMSALAuthority",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCoreMSAL.PassyCoreMSALError.Type) -> PassyCoreMSAL.PassyCoreMSALError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassyCoreMSALError",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                    "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCoreMSAL.PassyCoreMSALError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PassyCoreMSALError",
+                        "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                        "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO25cannotCreateMSALAuthorityyA2CmF",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO25cannotCreateMSALAuthorityyA2CmF",
+            "moduleName": "PassyCoreMSAL"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PassyCoreMSALError",
+                "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PassyCoreMSALError",
+                "printedName": "PassyCoreMSAL.PassyCoreMSALError",
+                "usr": "s:13PassyCoreMSAL0aB9MSALErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PassyCoreMSAL",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO9hashValueSivp",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO9hashValueSivp",
+            "moduleName": "PassyCoreMSAL",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PassyCoreMSAL0aB9MSALErrorO9hashValueSivg",
+                "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO9hashValueSivg",
+                "moduleName": "PassyCoreMSAL",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PassyCoreMSAL0aB9MSALErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PassyCoreMSAL",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13PassyCoreMSAL0aB9MSALErrorO",
+        "mangledName": "$s13PassyCoreMSAL0aB9MSALErrorO",
+        "moduleName": "PassyCoreMSAL",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 27,
+      "value": "\"login.microsoftonline.com\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "Array",
+      "offset": 707,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4435,
+      "length": 18,
+      "value": "\"https:\/\/%@\/%@\/%@\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4713,
+      "length": 15,
+      "value": "\"https:\/\/%@\/%@\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "Array",
+      "offset": 5470,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5733,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5935,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6630,
+      "length": 51,
+      "value": "\"Cannot build MSAL authority data. Error: \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6680,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6764,
+      "length": 153,
+      "value": "\"Crating login application instance with clind ID \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6830,
+      "length": 1,
+      "value": "\", redirect URI: \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6865,
+      "length": 3,
+      "value": "\" and authority \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6916,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6970,
+      "length": 120,
+      "value": "\"Crating login application instance with clind ID \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7036,
+      "length": 1,
+      "value": "\", redirect URI: \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7071,
+      "length": 4,
+      "value": "\" with no authority\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7823,
+      "length": 58,
+      "value": "\"Cannot create MSAL application instance. Error: \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7880,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7947,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 8089,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 8108,
+      "length": 1,
+      "value": "\"\/.default\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 8804,
+      "length": 60,
+      "value": "\"Cannot retrieve auth token. \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "StringLiteral",
+      "offset": 8863,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/MSALServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/AuthenticationProviderResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2039,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/AuthenticationProviderResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/AuthenticationProviderResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2323,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCoreMSAL\/PassyCoreMSAL\/AuthenticationProviderResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2359,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

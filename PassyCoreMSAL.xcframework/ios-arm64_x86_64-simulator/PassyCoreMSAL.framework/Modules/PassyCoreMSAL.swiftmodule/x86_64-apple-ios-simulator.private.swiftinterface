@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PassyCoreMSAL
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import MSAL
+@_exported import PassyCoreMSAL
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public class MSALServices {
+  public var additionalScopes: [Swift.String]
+  public var useTenantIDForAuthority: Swift.Bool
+  public var tenantID: Foundation.UUID?
+  public var resourceID: Swift.String {
+    get
+    set(value)
+  }
+  public var clientID: Swift.String {
+    get
+    set(value)
+  }
+  public var authority: Swift.String {
+    get
+    set(value)
+  }
+  public var redirectURI: Swift.String {
+    get
+    set(value)
+  }
+  public var viewController: UIKit.UIViewController? {
+    get
+    set(value)
+  }
+  public init(resourceID: Swift.String, clientID: Swift.String, authority: Swift.String, redirectURI: Swift.String)
+  convenience public init(resourceID: Swift.String, clientID: Swift.String, authority: Swift.String, redirectURI: Swift.String, with controller: UIKit.UIViewController)
+  public static func handleCallbackURI(url: Foundation.URL)
+  public func authenticateAsync(with callback: @escaping (PassyCoreMSAL.AuthenticationProviderResponse, (any Swift.Error)?) -> Swift.Void) throws
+  @objc deinit
+}
+public class AuthenticationProviderResponse {
+  public var providedName: Swift.String? {
+    get
+  }
+  public var token: Swift.String? {
+    get
+  }
+  public var authenticationHeader: Swift.String? {
+    get
+  }
+  public var canceled: Swift.Bool {
+    get
+  }
+  public var isFaulted: Swift.Bool {
+    get
+  }
+  public var faultError: (any Swift.Error)? {
+    get
+  }
+  public init(providedName: Swift.String? = nil, token: Swift.String? = nil, authenticationHeader: Swift.String? = nil, canceled: Swift.Bool, isFaulted: Swift.Bool, faultError: (any Swift.Error)? = nil)
+  convenience public init(providedName: Swift.String, token: Swift.String, authenticationHeader: Swift.String)
+  convenience public init(faultError: any Swift.Error)
+  @objc deinit
+}
+public enum PassyCoreMSALError : Swift.Error {
+  case presentationViewControllerNotProvided
+  case authenticationDataNotReceived
+  case tenantIDRequestedForCurrentConfiguration
+  case cannotCreateMSALAuthority
+  public static func == (a: PassyCoreMSAL.PassyCoreMSALError, b: PassyCoreMSAL.PassyCoreMSALError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension PassyCoreMSAL.PassyCoreMSALError : Swift.Equatable {}
+extension PassyCoreMSAL.PassyCoreMSALError : Swift.Hashable {}
