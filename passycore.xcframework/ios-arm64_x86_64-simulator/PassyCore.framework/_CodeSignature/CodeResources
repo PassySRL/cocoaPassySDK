@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WX6BmI04D3uZawpjnXNDJaPaJ/s=
+		Uvj3Ml0lVhF/2tQ+rb+4Cwg+ypw=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wPQ8K8bYiCjhnGk+3dblV5IqVUI=
+		RAZpfVi1JXdk8i8EtVJxZ11M4S4=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wPQ8K8bYiCjhnGk+3dblV5IqVUI=
+		RAZpfVi1JXdk8i8EtVJxZ11M4S4=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Akwe4YlE7I0YLLzkr5yeo8czwc6h8lKg9bwO3o1Y8jU=
+			l08tb9IK9slGVXSukRMz2mpRssfdYoUaJcKaUUsKFfQ=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Akwe4YlE7I0YLLzkr5yeo8czwc6h8lKg9bwO3o1Y8jU=
+			l08tb9IK9slGVXSukRMz2mpRssfdYoUaJcKaUUsKFfQ=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
