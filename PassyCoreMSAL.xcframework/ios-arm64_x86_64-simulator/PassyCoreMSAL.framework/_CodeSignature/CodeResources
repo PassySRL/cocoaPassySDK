@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R4N/1SttfdfAUx5Nsw//64SSa0g=
+		ZFTKoR2/TKTncl/UqB/cmFXHKYs=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Geof50vcpgLHTkbjTzUfsjvtcOA=
+		qyTMUwvifpFVvO6Pp3zOnWROqdM=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pTAioD2C7wchY4/Xi5DxgGCX+dg=
+		537bR+YcmqU+BlVRft3+32GrQEU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iboGAf9xqAOJV/O+ix5ebOOznGACozIQVXeT2WctAOU=
+			iBlpEX4KHLPsJEuMOKmjCQ7tysKFjMulXq1WpoPUVhM=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IkCZRUwDF2HMmzr3bCQYFnhsavp0jmY96Kr5/2GPDto=
+			9HEH30qDGLefccNYVb9/oQLW/q+Hevsw51Jq7pX4fgQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

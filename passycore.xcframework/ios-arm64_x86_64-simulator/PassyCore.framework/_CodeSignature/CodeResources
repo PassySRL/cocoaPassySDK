@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PassyCore-Swift.h</key>
 		<data>
-		UmC1QjdnV2WZ97RQETJuzUXQOIQ=
+		jU1alM9NhAnRqJABYbtSleCZOaQ=
 		</data>
 		<key>Headers/PassyCore.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rj9f1QUYTIDfngM46ZyseBKEzko=
+		WX6BmI04D3uZawpjnXNDJaPaJ/s=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6mRA0zjFaDYF9id3z05DAQc1oyo=
+		wPQ8K8bYiCjhnGk+3dblV5IqVUI=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		K/XWtuM0ev5q46UVN75e0AcSaF0=
+		SRr9UXSZ7bFavwbs84h6NS8ebLQ=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		K/XWtuM0ev5q46UVN75e0AcSaF0=
+		SRr9UXSZ7bFavwbs84h6NS8ebLQ=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AIh2F+owxwUEAcSPxYMLZN8jIqY=
+		OttMDfaxaxit94NWYVMpxIzlLhY=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6mRA0zjFaDYF9id3z05DAQc1oyo=
+		wPQ8K8bYiCjhnGk+3dblV5IqVUI=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		STmALR/HHMLqXODEkGoDYOQvPcE=
+		9HlFwHs/83VdeuAtZRfBZQ4+/W4=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		STmALR/HHMLqXODEkGoDYOQvPcE=
+		9HlFwHs/83VdeuAtZRfBZQ4+/W4=
 		</data>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8xU+u2qUcCkYiZVQnHvjmOAPGYU=
+		6XX0MlZ3xc7oYVxpQ4IpSTAmWd4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZfzyHiD3Bljdi7mMirci/OP8kuCOIsceHidEh70jjk=
+			TvR2VAvjjM5Rg8KNNrQw+cCWdc6CtmlBI+J9TG3oTQE=
 			</data>
 		</dict>
 		<key>Headers/PassyCore.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtOXJaJzU+RNIJT0fM2uEzAM35oosBCz0PzuwmConL0=
+			Akwe4YlE7I0YLLzkr5yeo8czwc6h8lKg9bwO3o1Y8jU=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K8oETrp4fOau3GFk/Ecg0vCLYEHm0GL0YNp2ymcgC0g=
+			oX71IxgEGU5yGtb19KeVX8A/6RMvM7pS01WQ+xhQknQ=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K8oETrp4fOau3GFk/Ecg0vCLYEHm0GL0YNp2ymcgC0g=
+			oX71IxgEGU5yGtb19KeVX8A/6RMvM7pS01WQ+xhQknQ=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2JD8g7j6FGSOYXfAptjiqsDnZ22B5Cg7grw03C1qKs=
+			VCWMpMZAgNnQDeoibkpnAahkGEDOADUp6UYX8JofIjY=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtOXJaJzU+RNIJT0fM2uEzAM35oosBCz0PzuwmConL0=
+			Akwe4YlE7I0YLLzkr5yeo8czwc6h8lKg9bwO3o1Y8jU=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HqtlLa2PAaSKm9JrpPhPRoAq2Z9okCz3DIMU/8TKGj4=
+			SIFDU4o/3AHI2BewIk6JQUUDGdb4DRfO44B3kjAZMJM=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HqtlLa2PAaSKm9JrpPhPRoAq2Z9okCz3DIMU/8TKGj4=
+			SIFDU4o/3AHI2BewIk6JQUUDGdb4DRfO44B3kjAZMJM=
 			</data>
 		</dict>
 		<key>Modules/PassyCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGTl0cEYfoWN6BrYTndesyVCKJyCZQVlLpuNleCws1M=
+			virIpW9GDGhhCLBXQ/TyFn/mXyBbadoSOIMCdtTV7KU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

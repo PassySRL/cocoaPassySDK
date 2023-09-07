@@ -261,6 +261,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreBluetooth;
+@import CoreLocation;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -302,6 +304,23 @@ SWIFT_CLASS("_TtC9PassyCore30BluetoothConnectionFlowManager")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+@class CLLocationManager;
+@class CLBeacon;
+@class CLBeaconIdentityConstraint;
+@class CLRegion;
+@class NSString;
+@class NSNumber;
+
+SWIFT_CLASS("_TtC9PassyCore24SmartkeyDeviceBLEScanner")
+@interface SmartkeyDeviceBLEScanner : NSObject <CBCentralManagerDelegate, CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons satisfyingConstraint:(CLBeaconIdentityConstraint * _Nonnull)beaconConstraint;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion * _Nonnull)region;
+- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
+- (void)centralManager:(CBCentralManager * _Nonnull)central didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #endif
 #if defined(__cplusplus)
@@ -574,6 +593,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreBluetooth;
+@import CoreLocation;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -615,6 +636,23 @@ SWIFT_CLASS("_TtC9PassyCore30BluetoothConnectionFlowManager")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+@class CLLocationManager;
+@class CLBeacon;
+@class CLBeaconIdentityConstraint;
+@class CLRegion;
+@class NSString;
+@class NSNumber;
+
+SWIFT_CLASS("_TtC9PassyCore24SmartkeyDeviceBLEScanner")
+@interface SmartkeyDeviceBLEScanner : NSObject <CBCentralManagerDelegate, CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons satisfyingConstraint:(CLBeaconIdentityConstraint * _Nonnull)beaconConstraint;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion * _Nonnull)region;
+- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
+- (void)centralManager:(CBCentralManager * _Nonnull)central didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #endif
 #if defined(__cplusplus)
