@@ -111,7 +111,7 @@ public class SmartkeyLocationsService : PassyCore.PassyWebAPIService {
   public static let DefaultRootObject: Swift.Int
   public init(serviceUris: PassyCore.SmartkeysServiceUris)
   public func getLocationsAsync(root: Swift.Int, parameters: PassyCore.GetLocationsParameters, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.LocationContainer>) -> Swift.Void)) throws
-  public func getBeaconInfoAsync(roomControllerNumber: Swift.Int, beaconID: Swift.UInt8, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.BeaconResourceComplete>) -> Swift.Void)) throws
+  public func getBeaconInfoAsync(roomControllerNumber: Swift.Int, beaconID: Swift.UInt8, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.BeaconResourceComplete]>) -> Swift.Void)) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LocationInfo : Swift.Codable {
@@ -220,6 +220,10 @@ public class BeaconResourceComplete : Swift.Codable {
   public var locationID: Swift.Int?
   public var locationName: Swift.String?
   public var isDefault: Swift.Bool?
+  public var tenantID: Foundation.UUID?
+  public var organizationID: Foundation.UUID?
+  public var roomControllerID: Swift.Int?
+  public var beaconID: Swift.Int?
   public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws

@@ -4870,7 +4870,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PassyCore.ServiceOperationResult<PassyCore.BeaconResourceComplete>) -> ()",
+                "printedName": "(PassyCore.ServiceOperationResult<[PassyCore.BeaconResourceComplete]>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4880,13 +4880,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ServiceOperationResult",
-                    "printedName": "PassyCore.ServiceOperationResult<PassyCore.BeaconResourceComplete>",
+                    "printedName": "PassyCore.ServiceOperationResult<[PassyCore.BeaconResourceComplete]>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "BeaconResourceComplete",
-                        "printedName": "PassyCore.BeaconResourceComplete",
-                        "usr": "s:9PassyCore22BeaconResourceCompleteC"
+                        "name": "Array",
+                        "printedName": "[PassyCore.BeaconResourceComplete]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BeaconResourceComplete",
+                            "printedName": "PassyCore.BeaconResourceComplete",
+                            "usr": "s:9PassyCore22BeaconResourceCompleteC"
+                          }
+                        ],
+                        "usr": "s:Sa"
                       }
                     ],
                     "usr": "s:9PassyCore22ServiceOperationResultC"
@@ -4895,8 +4903,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PassyCore24SmartkeyLocationsServiceC18getBeaconInfoAsync20roomControllerNumber8beaconID19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySi_s5UInt8VSSAA0sT0OSbyAA0E15OperationResultCyAA0G16ResourceCompleteCGctKF",
-            "mangledName": "$s9PassyCore24SmartkeyLocationsServiceC18getBeaconInfoAsync20roomControllerNumber8beaconID19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySi_s5UInt8VSSAA0sT0OSbyAA0E15OperationResultCyAA0G16ResourceCompleteCGctKF",
+            "usr": "s:9PassyCore24SmartkeyLocationsServiceC18getBeaconInfoAsync20roomControllerNumber8beaconID19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySi_s5UInt8VSSAA0sT0OSbyAA0E15OperationResultCySayAA0G16ResourceCompleteCGGctKF",
+            "mangledName": "$s9PassyCore24SmartkeyLocationsServiceC18getBeaconInfoAsync20roomControllerNumber8beaconID19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySi_s5UInt8VSSAA0sT0OSbyAA0E15OperationResultCySayAA0G16ResourceCompleteCGGctKF",
             "moduleName": "PassyCore",
             "declAttributes": [
               "AccessControl"
@@ -9831,6 +9839,446 @@
                 "declKind": "Accessor",
                 "usr": "s:9PassyCore22BeaconResourceCompleteC9isDefaultSbSgvM",
                 "mangledName": "$s9PassyCore22BeaconResourceCompleteC9isDefaultSbSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tenantID",
+            "printedName": "tenantID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvp",
+            "mangledName": "$s9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvg",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvs",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvM",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC8tenantID10Foundation4UUIDVSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "organizationID",
+            "printedName": "organizationID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvp",
+            "mangledName": "$s9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvg",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvs",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvM",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC14organizationID10Foundation4UUIDVSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "roomControllerID",
+            "printedName": "roomControllerID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvp",
+            "mangledName": "$s9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvg",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvs",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvM",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC16roomControllerIDSiSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beaconID",
+            "printedName": "beaconID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvp",
+            "mangledName": "$s9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvg",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvs",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvM",
+                "mangledName": "$s9PassyCore22BeaconResourceCompleteC8beaconIDSiSgvM",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -62285,553 +62733,476 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 16078,
-      "length": 77,
-      "value": "\"Using organization ID:\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16118,
-      "length": 1,
-      "value": "\", key ID:\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16135,
-      "length": 1,
-      "value": "\", lock ID:\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16154,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16177,
-      "length": 35,
-      "value": "\"delta timestamp:\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16211,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16233,
-      "length": 50,
-      "value": "\"Shared secret base 64:\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16282,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16304,
-      "length": 33,
-      "value": "\"HMAC base 64:\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16336,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 16460,
+      "offset": 16488,
       "length": 41,
       "value": "\"Requesting write for LW-HMAC to device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 16587,
+      "offset": 16615,
       "length": 37,
       "value": "\"Requesting feedback data to device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 16710,
-      "length": 61,
-      "value": "\"Executing end of cummication for current connectect device.\""
+      "offset": 16738,
+      "length": 53,
+      "value": "\"Executing end of comunication for connected device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16864,
+      "offset": 16884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 16906,
+      "offset": 16926,
       "length": 31,
       "value": "\"Cannot disconnect peripheral.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 17027,
+      "offset": 17047,
       "length": 24,
       "value": "\"Communication faulted.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17144,
+      "offset": 17164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 17186,
+      "offset": 17206,
       "length": 31,
       "value": "\"Cannot disconnect peripheral.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 17300,
+      "offset": 17320,
       "length": 64,
       "value": "\"Unsupported operation requested. Trying to disconnect service.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17457,
+      "offset": 17477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 17499,
+      "offset": 17519,
       "length": 31,
       "value": "\"Cannot disconnect peripheral.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17878,
+      "offset": 17898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18010,
+      "offset": 18030,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18040,
+      "offset": 18060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "Array",
-      "offset": 18341,
+      "offset": 18361,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19094,
+      "offset": 19114,
       "length": 33,
       "value": "\"Discovering peripheral services\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19375,
+      "offset": 19395,
       "length": 11,
       "value": "\"<unknown>\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19414,
+      "offset": 19434,
       "length": 83,
       "value": "\"Bluetooth failed to connect to periferal with \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19496,
+      "offset": 19516,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19518,
+      "offset": 19538,
       "length": 100,
       "value": "\", UUID \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19561,
+      "offset": 19581,
       "length": 1,
       "value": "\", error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 19617,
+      "offset": 19637,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 20628,
+      "offset": 20648,
       "length": 45,
       "value": "\"Error discovering servics. Error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 20672,
+      "offset": 20692,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 21070,
+      "offset": 21090,
       "length": 46,
       "value": "\"Full characteristic smartlock service found.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 21425,
+      "offset": 21445,
       "length": 47,
       "value": "\"No Smartlock service found in current device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 21871,
+      "offset": 21891,
       "length": 80,
       "value": "\"Cannot retreive characteristics from service \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 21932,
+      "offset": 21952,
       "length": 1,
       "value": "\". Error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 21950,
+      "offset": 21970,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 22130,
+      "offset": 22150,
       "length": 55,
       "value": "\"No characteristics found for service \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 22183,
+      "offset": 22203,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 22395,
+      "offset": 22415,
       "length": 40,
       "value": "\"Error retrieving characteristics list.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22603,
+      "offset": 22623,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 22774,
+      "offset": 22794,
       "length": 71,
       "value": "\"Caching characteristic \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 22817,
+      "offset": 22837,
       "length": 4,
       "value": "\" into characteristic cache.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 23055,
+      "offset": 23075,
       "length": 49,
       "value": "\"Organization ID alredy set. Requesting Lock ID.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 23227,
+      "offset": 23247,
       "length": 45,
       "value": "\"Requesting organization ID from the device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 23587,
+      "offset": 23607,
       "length": 79,
       "value": "\"Cannot read value for state \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 23647,
+      "offset": 23667,
       "length": 1,
       "value": "\". Error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 23665,
+      "offset": 23685,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 24008,
+      "offset": 24028,
       "length": 58,
       "value": "\"Cannot retrieve characteristic data for Organization ID.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 24471,
+      "offset": 24491,
       "length": 55,
       "value": "\"No key resolver set and no default key set. Aborting.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 24931,
+      "offset": 24951,
       "length": 68,
       "value": "\"Cannot find a key for organization ID \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 24987,
+      "offset": 25007,
       "length": 1,
       "value": "\". Aborting.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 25586,
+      "offset": 25606,
       "length": 38,
       "value": "\"Cannot retrieve lock ID from device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 26149,
+      "offset": 26169,
       "length": 40,
       "value": "\"Cannot retrieve timestamp from device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26402,
+      "offset": 26422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 26872,
+      "offset": 26892,
       "length": 77,
       "value": "\"Case \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 26909,
+      "offset": 26929,
       "length": 2,
       "value": "\" is not a read case. Closing connection\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 27305,
+      "offset": 27325,
       "length": 80,
       "value": "\"Cannot write value for state \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 27366,
+      "offset": 27386,
       "length": 1,
       "value": "\". Error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 27384,
+      "offset": 27404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 27626,
+      "offset": 27646,
       "length": 46,
       "value": "\"WriteLockNumber ended writing to BLE device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 27861,
+      "offset": 27881,
       "length": 42,
       "value": "\"WriteKeyset ended writing to BLE device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 28098,
+      "offset": 28118,
       "length": 55,
       "value": "\"WritePeriphrealTimestamp ended writing to BLE device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 28318,
+      "offset": 28338,
       "length": 48,
       "value": "\"WriteHighWordHMAC ended writing to BLE device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 28529,
+      "offset": 28549,
       "length": 47,
       "value": "\"WriteLowWordHMAC ended writing to BLE device.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 28706,
+      "offset": 28726,
       "length": 58,
       "value": "\"Feedback characteristic available. Waiting for feedback.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 28935,
+      "offset": 28955,
       "length": 66,
       "value": "\"No feedback characteristic available. Close connection directly.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 29190,
+      "offset": 29210,
       "length": 84,
       "value": "\"Case \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 29227,
+      "offset": 29247,
       "length": 2,
       "value": "\" is not a valid write case. Closing connection\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 29676,
-      "length": 19,
-      "value": "\"No HMAC avilable.\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
-      "kind": "StringLiteral",
-      "offset": 29925,
+      "offset": 29986,
       "length": 54,
       "value": "\"Cannot find delta timestamp characteristic in cache.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30118,
+      "offset": 30179,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 30157,
+      "offset": 30218,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30201,
+      "offset": 30262,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30292,
+      "offset": 30353,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 30603,
+      "offset": 30664,
       "length": 56,
       "value": "\"Key set data write requested. High bits: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/hardware\/bluetooth\/BluetoothConnectionFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 30658,
+      "offset": 30719,
       "length": 2,
       "value": "\"\""
     },
@@ -63314,126 +63685,126 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "Array",
-      "offset": 5356,
+      "offset": 5358,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5563,
+      "offset": 5565,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5786,
+      "offset": 5788,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 5937,
+      "offset": 5939,
       "length": 6,
       "value": "\"IdRC\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 6037,
+      "offset": 6039,
       "length": 13,
       "value": "\"IdSerratura\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 6944,
+      "offset": 6946,
       "length": 46,
       "value": "\"Getting beacons info using uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 6989,
+      "offset": 6991,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 8338,
+      "offset": 8344,
       "length": 63,
       "value": "\"Retrieved beacon information using request uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 8399,
+      "offset": 8405,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 8437,
+      "offset": 8443,
       "length": 52,
       "value": "\"with API version \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 8486,
+      "offset": 8492,
       "length": 1,
       "value": "\". \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 8525,
+      "offset": 8531,
       "length": 43,
       "value": "\"Status code: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 8567,
+      "offset": 8573,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 9232,
+      "offset": 9238,
       "length": 56,
       "value": "\"Error getting beacons with request uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 9285,
+      "offset": 9291,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 9320,
+      "offset": 9326,
       "length": 68,
       "value": "\"using API version \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 9370,
+      "offset": 9376,
       "length": 1,
       "value": "\". Error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyLocationsService.swift",
       "kind": "StringLiteral",
-      "offset": 9387,
+      "offset": 9393,
       "length": 1,
       "value": "\"\""
     },
@@ -63909,44 +64280,100 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 525,
       "length": 12,
-      "value": "\"LocationId\""
+      "value": "\"locationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 566,
       "length": 14,
-      "value": "\"LocationName\""
+      "value": "\"locationName\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
       "kind": "StringLiteral",
-      "offset": 470,
+      "offset": 606,
       "length": 11,
-      "value": "\"IsDefault\""
+      "value": "\"isDefault\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 642,
+      "length": 10,
+      "value": "\"tenantId\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 11,
+      "value": "\"companyId\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 6,
+      "value": "\"idRC\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 13,
+      "value": "\"idSerratura\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
       "length": 12,
-      "value": "\"LocationId\""
+      "value": "\"locationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 566,
       "length": 14,
-      "value": "\"LocationName\""
+      "value": "\"locationName\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
       "kind": "StringLiteral",
-      "offset": 470,
+      "offset": 606,
       "length": 11,
-      "value": "\"IsDefault\""
+      "value": "\"isDefault\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 10,
+      "value": "\"tenantId\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 11,
+      "value": "\"companyId\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 6,
+      "value": "\"idRC\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/BeaconResourceComplete.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 13,
+      "value": "\"idSerratura\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/PassyWebAPIService.swift",
