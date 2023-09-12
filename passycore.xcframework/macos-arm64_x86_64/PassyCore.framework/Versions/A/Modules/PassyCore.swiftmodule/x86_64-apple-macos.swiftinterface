@@ -1130,7 +1130,7 @@ public class RestConnectionParameters {
   public var date: Foundation.Date?
   public var timeBandList: [PassyCore.TimeBand]?
   public var reservations: [PassyCore.Reservation]?
-  public var reservationStatus: [PassyCore.ReservationStatus]?
+  public var reservationStatus: PassyCore.ReservationStatus?
   public var reservationStatusString: Swift.String?
   public var reservationStatusReason: Swift.String?
   @objc deinit

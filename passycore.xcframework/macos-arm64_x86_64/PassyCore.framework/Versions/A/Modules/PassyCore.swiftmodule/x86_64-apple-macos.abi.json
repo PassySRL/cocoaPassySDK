@@ -50112,29 +50112,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[PassyCore.ReservationStatus]?",
+                "printedName": "PassyCore.ReservationStatus?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[PassyCore.ReservationStatus]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ReservationStatus",
-                        "printedName": "PassyCore.ReservationStatus",
-                        "usr": "s:9PassyCore17ReservationStatusO"
-                      }
-                    ],
-                    "usr": "s:Sa"
+                    "name": "ReservationStatus",
+                    "printedName": "PassyCore.ReservationStatus",
+                    "usr": "s:9PassyCore17ReservationStatusO"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvp",
-            "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvp",
+            "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvp",
+            "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvp",
             "moduleName": "PassyCore",
             "declAttributes": [
               "HasInitialValue",
@@ -50151,29 +50143,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[PassyCore.ReservationStatus]?",
+                    "printedName": "PassyCore.ReservationStatus?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PassyCore.ReservationStatus]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ReservationStatus",
-                            "printedName": "PassyCore.ReservationStatus",
-                            "usr": "s:9PassyCore17ReservationStatusO"
-                          }
-                        ],
-                        "usr": "s:Sa"
+                        "name": "ReservationStatus",
+                        "printedName": "PassyCore.ReservationStatus",
+                        "usr": "s:9PassyCore17ReservationStatusO"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvg",
-                "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvg",
+                "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvg",
+                "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvg",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -50191,29 +50175,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[PassyCore.ReservationStatus]?",
+                    "printedName": "PassyCore.ReservationStatus?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PassyCore.ReservationStatus]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ReservationStatus",
-                            "printedName": "PassyCore.ReservationStatus",
-                            "usr": "s:9PassyCore17ReservationStatusO"
-                          }
-                        ],
-                        "usr": "s:Sa"
+                        "name": "ReservationStatus",
+                        "printedName": "PassyCore.ReservationStatus",
+                        "usr": "s:9PassyCore17ReservationStatusO"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvs",
-                "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvs",
+                "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvs",
+                "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvs",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -50230,8 +50206,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvM",
-                "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0SayAA0eF0OGSgvM",
+                "usr": "s:9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvM",
+                "mangledName": "$s9PassyCore28DateAndReservationStatusListC011reservationF0AA0eF0OSgvM",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -70713,84 +70689,84 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 510,
       "length": 6,
       "value": "\"Date\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 545,
       "length": 14,
       "value": "\"TimeBandList\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 588,
       "length": 14,
       "value": "\"Reservations\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 636,
       "length": 19,
       "value": "\"ReservationStatus\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 695,
       "length": 22,
       "value": "\"ReservationStatusStr\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 759,
+      "offset": 757,
       "length": 25,
       "value": "\"ReservationStatusReason\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 510,
       "length": 6,
       "value": "\"Date\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 545,
       "length": 14,
       "value": "\"TimeBandList\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 588,
       "length": 14,
       "value": "\"Reservations\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 636,
       "length": 19,
       "value": "\"ReservationStatus\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 695,
       "length": 22,
       "value": "\"ReservationStatusStr\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/DateAndReservationStatusList.swift",
       "kind": "StringLiteral",
-      "offset": 759,
+      "offset": 757,
       "length": 25,
       "value": "\"ReservationStatusReason\""
     },
