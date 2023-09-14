@@ -301,6 +301,12 @@ public struct RecurrenceModel : Swift.Codable {
   @objc public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class ResponseMessageBase : Swift.Codable {
+  public var message: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers public class ActionsGroupData : Swift.Codable {
   public var groupID: Foundation.UUID?
   public var groupName: Swift.String?
@@ -1163,7 +1169,7 @@ public class ReservationProperty : Swift.Codable {
   public var reservationId: Foundation.UUID?
   public var attendBroker: Swift.Bool?
   public var completed: Swift.Bool?
-  public var message: Swift.String?
+  public var recurrence: [PassyCore.ReservationResponse]?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

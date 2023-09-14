@@ -14270,6 +14270,211 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ResponseMessageBase",
+        "printedName": "ResponseMessageBase",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore19ResponseMessageBaseC7messageSSSgvp",
+            "mangledName": "$s9PassyCore19ResponseMessageBaseC7messageSSSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore19ResponseMessageBaseC7messageSSSgvg",
+                "mangledName": "$s9PassyCore19ResponseMessageBaseC7messageSSSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore19ResponseMessageBaseC7messageSSSgvs",
+                "mangledName": "$s9PassyCore19ResponseMessageBaseC7messageSSSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore19ResponseMessageBaseC7messageSSSgvM",
+                "mangledName": "$s9PassyCore19ResponseMessageBaseC7messageSSSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseMessageBase",
+                "printedName": "PassyCore.ResponseMessageBase",
+                "usr": "s:9PassyCore19ResponseMessageBaseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PassyCore19ResponseMessageBaseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9PassyCore19ResponseMessageBaseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PassyCore",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore19ResponseMessageBaseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9PassyCore19ResponseMessageBaseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "PassyCore",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9PassyCore19ResponseMessageBaseC",
+        "mangledName": "$s9PassyCore19ResponseMessageBaseC",
+        "moduleName": "PassyCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ActionsGroupData",
         "printedName": "ActionsGroupData",
         "children": [
@@ -51689,27 +51894,35 @@
           },
           {
             "kind": "Var",
-            "name": "message",
-            "printedName": "message",
+            "name": "recurrence",
+            "printedName": "recurrence",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "[PassyCore.ReservationResponse]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Array",
+                    "printedName": "[PassyCore.ReservationResponse]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReservationResponse",
+                        "printedName": "PassyCore.ReservationResponse",
+                        "usr": "s:9PassyCore19ReservationResponseC"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9PassyCore19ReservationResponseC7messageSSSgvp",
-            "mangledName": "$s9PassyCore19ReservationResponseC7messageSSSgvp",
+            "usr": "s:9PassyCore19ReservationResponseC10recurrenceSayACGSgvp",
+            "mangledName": "$s9PassyCore19ReservationResponseC10recurrenceSayACGSgvp",
             "moduleName": "PassyCore",
             "declAttributes": [
               "HasInitialValue",
@@ -51726,21 +51939,29 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "[PassyCore.ReservationResponse]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Array",
+                        "printedName": "[PassyCore.ReservationResponse]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ReservationResponse",
+                            "printedName": "PassyCore.ReservationResponse",
+                            "usr": "s:9PassyCore19ReservationResponseC"
+                          }
+                        ],
+                        "usr": "s:Sa"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore19ReservationResponseC7messageSSSgvg",
-                "mangledName": "$s9PassyCore19ReservationResponseC7messageSSSgvg",
+                "usr": "s:9PassyCore19ReservationResponseC10recurrenceSayACGSgvg",
+                "mangledName": "$s9PassyCore19ReservationResponseC10recurrenceSayACGSgvg",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -51758,21 +51979,29 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "[PassyCore.ReservationResponse]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Array",
+                        "printedName": "[PassyCore.ReservationResponse]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ReservationResponse",
+                            "printedName": "PassyCore.ReservationResponse",
+                            "usr": "s:9PassyCore19ReservationResponseC"
+                          }
+                        ],
+                        "usr": "s:Sa"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore19ReservationResponseC7messageSSSgvs",
-                "mangledName": "$s9PassyCore19ReservationResponseC7messageSSSgvs",
+                "usr": "s:9PassyCore19ReservationResponseC10recurrenceSayACGSgvs",
+                "mangledName": "$s9PassyCore19ReservationResponseC10recurrenceSayACGSgvs",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -51789,8 +52018,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore19ReservationResponseC7messageSSSgvM",
-                "mangledName": "$s9PassyCore19ReservationResponseC7messageSSSgvM",
+                "usr": "s:9PassyCore19ReservationResponseC10recurrenceSayACGSgvM",
+                "mangledName": "$s9PassyCore19ReservationResponseC10recurrenceSayACGSgvM",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -65094,6 +65323,20 @@
       "value": "\"PassyCore.SmartkeyDeviceBLEScanner\""
     },
     {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/ResponseMessageBase.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/ResponseMessageBase.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/locations\/ActionsGroupData.swift",
       "kind": "StringLiteral",
       "offset": 534,
@@ -70843,72 +71086,72 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 433,
       "length": 6,
       "value": "\"self\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 469,
       "length": 15,
-      "value": "\"reservationId\""
+      "value": "\"ReservationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 513,
       "length": 14,
       "value": "\"AttendBroker\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 553,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 566,
-      "length": 9,
-      "value": "\"Message\""
+      "offset": 591,
+      "length": 26,
+      "value": "\"ReservationsResponseList\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 433,
       "length": 6,
       "value": "\"self\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 469,
       "length": 15,
-      "value": "\"reservationId\""
+      "value": "\"ReservationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 513,
       "length": 14,
       "value": "\"AttendBroker\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 553,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/ReservationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 566,
-      "length": 9,
-      "value": "\"Message\""
+      "offset": 591,
+      "length": 26,
+      "value": "\"ReservationsResponseList\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/diagnostics\/LogMessageLevel.swift",
