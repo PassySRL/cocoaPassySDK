@@ -300,12 +300,6 @@ public struct RecurrenceModel : Swift.Codable {
   @objc public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class ResponseMessageBase : Swift.Codable {
-  public var message: Swift.String?
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
 @_hasMissingDesignatedInitializers public class ActionsGroupData : Swift.Codable {
   public var groupID: Foundation.UUID?
   public var groupName: Swift.String?
@@ -462,6 +456,7 @@ public enum TypeAction : Swift.Int, Swift.Codable {
 @_hasMissingDesignatedInitializers public class LocationContainer : Swift.Codable {
   public var locationInfo: PassyCore.LocationInfo?
   public var accesses: [PassyCore.AccessData]?
+  public var message: Swift.String?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -922,6 +917,9 @@ public class RemoteRequestBeaconV2 : Swift.Codable {
 extension Foundation.UUID {
   public func toData() -> Foundation.Data?
   public static func fromData(uuidBuffer: Foundation.Data) -> Foundation.UUID
+  public static var zero: Foundation.UUID {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class ActionResult : Swift.Codable {
   public var result: Swift.String?
@@ -958,6 +956,7 @@ public class ErrorResponse : Swift.Codable {
 public class ReservationResponseEx : Swift.Codable {
   public var dateAndReservationStatusList: [PassyCore.DateAndReservationStatusList]?
   public var inLocationID: Swift.Int?
+  public var message: Swift.String?
   public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -1062,7 +1061,7 @@ public enum AccessResultCode : Swift.Int, Swift.Codable {
   override public init(smartkeysServiceUris: PassyCore.SmartkeysServiceUris)
   public func getReservations(reservationID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
   public func getReservations(startDate: Foundation.Date?, endDate: Foundation.Date?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
-  public func getReservations(queryString: Swift.String, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
+  public func getReservations(queryStringComponents: [Foundation.URLQueryItem], authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
   public func createReservation(locationID: Swift.Int?, startDate: Foundation.Date?, endDate: Foundation.Date?, description: Swift.String?, seats: Swift.Int?, reservationGuests: [PassyCore.ReservationGuest]?, mobileRequest: PassyCore.MobileRequest, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
   public func createReservation(locationID: Swift.Int?, startDate: Foundation.Date?, endDate: Foundation.Date?, description: Swift.String?, seats: Swift.Int?, reservationGuests: [PassyCore.ReservationGuest]?, reservationRecurrence: PassyCore.RecurrenceModel?, mobileRequest: PassyCore.MobileRequest, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
   public func updateReservation(reservationID: Foundation.UUID, startDate: Foundation.Date?, endDate: Foundation.Date?, description: Swift.String?, seats: Swift.Int?, reservationGuests: [PassyCore.ReservationGuest]?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
@@ -1158,12 +1157,16 @@ public class ReservationProperty : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class ReservationResponse : Swift.Codable {
+@_hasMissingDesignatedInitializers public class ReservationResponse : Swift.Codable, Swift.CustomStringConvertible {
   public var objectSelf: Swift.String?
   public var reservationId: Foundation.UUID?
   public var attendBroker: Swift.Bool?
   public var completed: Swift.Bool?
   public var recurrence: [PassyCore.ReservationResponse]?
+  public var message: Swift.String?
+  public var description: Swift.String {
+    get
+  }
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
