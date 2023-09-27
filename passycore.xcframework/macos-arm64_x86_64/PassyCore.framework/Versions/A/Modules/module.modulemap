@@ -1,7 +1,7 @@
 framework module PassyCore {
   umbrella header "PassyCore.h"
-
   export *
+
   module * { export * }
 }
 
