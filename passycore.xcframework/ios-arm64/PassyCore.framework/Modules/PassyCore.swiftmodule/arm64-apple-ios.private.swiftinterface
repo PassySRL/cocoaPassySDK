@@ -326,6 +326,31 @@ public struct RecurrenceModel : Swift.Codable {
 }
 public typealias long = Swift.Int64
 public typealias ulong = Swift.UInt64
+@_hasMissingDesignatedInitializers public class UserSearchData : Swift.Codable, Swift.CustomStringConvertible {
+  public var companyID: Foundation.UUID
+  public var email: Swift.String?
+  public var secondaryEmail: Swift.String?
+  public var firstName: Swift.String?
+  public var lastName: Swift.String?
+  public var companyName: Swift.String?
+  public var profileID: Swift.Int?
+  public var jobTitle: Swift.String?
+  public var userDocumentBlobName: Swift.String?
+  public var userPictureBlobID: Foundation.UUID?
+  public var userPictureEncodedData: Swift.String?
+  public var taxCode: Swift.String?
+  public var availableUserSHSTypes: [Foundation.UUID : Swift.Int]?
+  public var code: Swift.String?
+  public var sharing: Swift.String?
+  public var lastUpdate: Foundation.Date?
+  public var HasCalendar: Swift.Bool?
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public enum SignInOutEventType : Swift.Int, Swift.Codable {
   case Unknown
   case SignIn
@@ -352,6 +377,16 @@ public enum ReservationRole : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public class UserSearchDataResult : Swift.Codable, Swift.CustomStringConvertible {
+  public var guests: [PassyCore.UserSearchData]?
+  public var count: Swift.Int
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class MobileRequest : Swift.Codable {
   public var objectID: Foundation.UUID?
@@ -1154,7 +1189,7 @@ public enum AccessResultCode : Swift.Int, Swift.Codable {
   public func signInOrSignOut(requestTime: Foundation.Date, roomControllerID: Swift.Int, beaconID: Swift.Int?, secretCode: Swift.String?, eventType: PassyCore.SignInOutEventType, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<Swift.Bool?>) -> Swift.Void)) throws
   public func getSignInSignOutStatus(onlyLast: Swift.Bool, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.SignInSignOutStatusResult>) -> Swift.Void)) throws
   public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
-  public func searchForUsersAsync(parameters: PassyCore.UserRequestSearchParameters, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
+  public func searchForUsersAsync(parameters: PassyCore.UserRequestSearchParameters, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.UserSearchDataResult>) -> Swift.Void)) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class IDListData : Swift.Codable {
