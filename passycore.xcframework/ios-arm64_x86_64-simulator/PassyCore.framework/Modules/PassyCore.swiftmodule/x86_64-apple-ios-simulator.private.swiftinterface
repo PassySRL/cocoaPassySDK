@@ -87,12 +87,14 @@ public protocol IServiceOperationResult {
   var result: Self.T? { get }
 }
 #endif
-public struct TenantConfigurationData : Swift.Codable, Swift.CustomStringConvertible {
+public struct TenantConfigurationData : PassyCore.ITenantConfigurationData, Swift.Codable, Swift.CustomStringConvertible {
   public var configurationID: Foundation.UUID
   public var tenantID: Foundation.UUID?
   public var company: Swift.String
   public var baseUri: Swift.String?
   public var baseUriWebApp: Swift.String?
+  public var optionalBaseUriFreeCalls: Swift.String?
+  public var optionalBaseUriWaadCalls: Swift.String?
   public var OAUTHClientID: Swift.String?
   public var OAUTHResourceIDUri: Swift.String?
   public var OAUTHRedirectUrl: Swift.String?
@@ -503,9 +505,9 @@ public class RestClient {
   }
   public init()
   public func getAsync<T>(url: Swift.String, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) throws -> Swift.Void) throws where T : Swift.Decodable
-  public func postAsync<T>(url: Swift.String, data: any Swift.Decodable & Swift.Encodable, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
-  public func putAsync<T>(url: Swift.String, data: any Swift.Decodable & Swift.Encodable, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
-  public func deleteAsync<T>(url: Swift.String, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) -> Swift.Void) throws where T : Swift.Decodable
+  public func postAsync<T>(url: Swift.String, data: any Swift.Decodable & Swift.Encodable, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) throws -> Swift.Void) throws where T : Swift.Decodable
+  public func putAsync<T>(url: Swift.String, data: any Swift.Decodable & Swift.Encodable, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) throws -> Swift.Void) throws where T : Swift.Decodable
+  public func deleteAsync<T>(url: Swift.String, connectionParameters: PassyCore.RestConnectionParameters, callback: @escaping (PassyCore.HttpOperationResult<T>) throws -> Swift.Void) throws where T : Swift.Decodable
   @objc deinit
 }
 public enum SmartkeyBluetoothConnectionState {
@@ -547,21 +549,27 @@ public enum SmartkeyBluetoothConnectionState {
   required public init(from decoder: any Swift.Decoder) throws
 }
 public struct SmartkeysServiceUris {
-  public static var GetSmartkeysDefault: Swift.String
-  public static var MobileActionExecuteDefault: Swift.String
-  public static var GetLocationsDefault: Swift.String
-  public static var GetBeaconInfoDefault: Swift.String
-  public static var GetReservationsDefault: Swift.String
-  public static var ReservationSearchFreeRoomDefault: Swift.String
-  public static var CreateReservationDefault: Swift.String
-  public static var UpdateReservationDefault: Swift.String
-  public static var DeleteReservationDefault: Swift.String
-  public static var GetRoomsAndReservationsDefault: Swift.String
-  public static var GetReservationSearchFreeRoomDefault: Swift.String
-  public static var SearchUsersDefault: Swift.String
-  public static var SignInSignOutDefault: Swift.String
+  public static let GetSmartkeysDefault: Swift.String
+  public static let GetGuestPassDefault: Swift.String
+  public static let GetGuestPassFromUriDefault: Swift.String
+  public static let GuestEnrollmentCompletionDefault: Swift.String
+  public static let GuestKeyConfirmationDefault: Swift.String
+  public static let MobileActionExecuteDefault: Swift.String
+  public static let GetLocationsDefault: Swift.String
+  public static let GetBeaconInfoDefault: Swift.String
+  public static let GetReservationsDefault: Swift.String
+  public static let ReservationSearchFreeRoomDefault: Swift.String
+  public static let CreateReservationDefault: Swift.String
+  public static let UpdateReservationDefault: Swift.String
+  public static let DeleteReservationDefault: Swift.String
+  public static let GetRoomsAndReservationsDefault: Swift.String
+  public static let GetReservationSearchFreeRoomDefault: Swift.String
+  public static let SearchUsersDefault: Swift.String
+  public static let SignInSignOutDefault: Swift.String
   public let baseURI: Swift.String
   public let webBaseURI: Swift.String?
+  public let optionalBaseUriFreeCalls: Swift.String?
+  public let optionalBaseUriWaadCalls: Swift.String?
   public var getSmartkeysUri: Swift.String {
     get
     set
@@ -610,7 +618,24 @@ public struct SmartkeysServiceUris {
     get
     set
   }
-  public init(for baseURI: Swift.String, and webBaseURI: Swift.String? = nil)
+  public var getGuestPass: Swift.String {
+    get
+    set
+  }
+  public var getGuestPassFromUri: Swift.String {
+    get
+    set
+  }
+  public var guestEnrollmentCompletion: Swift.String {
+    get
+    set
+  }
+  public var guestKeyConfirmation: Swift.String {
+    get
+    set
+  }
+  public init(for baseURI: Swift.String, and webBaseURI: Swift.String? = nil, andOptionalBaseUriFreeCalls optionalBaseUriFreeCalls: Swift.String? = nil, andOptionalBaseUriWaadCalls optionalBaseUriWaadCalls: Swift.String? = nil)
+  public static func fromConfigurationData(for configurationData: any PassyCore.ITenantConfigurationData) throws -> PassyCore.SmartkeysServiceUris
 }
 extension Foundation.Data {
   public func toUInt64(isBigEndian: Swift.Bool) -> Swift.UInt64
@@ -894,6 +919,25 @@ public class PassyTagPayload {
   public func parse() throws
   @objc deinit
 }
+public protocol ITenantConfigurationData {
+  var configurationID: Foundation.UUID { get }
+  var tenantID: Foundation.UUID? { get }
+  var company: Swift.String { get }
+  var baseUri: Swift.String? { get }
+  var baseUriWebApp: Swift.String? { get }
+  var optionalBaseUriFreeCalls: Swift.String? { get }
+  var optionalBaseUriWaadCalls: Swift.String? { get }
+  var OAUTHClientID: Swift.String? { get }
+  var OAUTHResourceIDUri: Swift.String? { get }
+  var OAUTHRedirectUrl: Swift.String? { get }
+  var OAUTHHint: Swift.String? { get }
+  var SmartKeyOAuthUri: Swift.String? { get }
+  var SmartKeyMSALUrl: Swift.String? { get }
+  var smartKeyGuestUri: Swift.String? { get }
+  var smartKeyDeleteURI: Swift.String { get }
+  var rssi: Swift.Int { get }
+  var isEnabled: Swift.Bool { get }
+}
 @_hasMissingDesignatedInitializers public class ExecuteActionResult : Swift.Codable {
   public var generalActionResult: PassyCore.GeneralActionResult?
   public var actionGroups: [PassyCore.ActionGroupToActionUnlockList]?
@@ -921,6 +965,16 @@ public class SignInOutData : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+public enum ConfigurationError : Swift.Error {
+  case invalidConfigurationGeneric
+  case invalidBaseUri
+  case invalidWebBaseUri
+  public static func == (a: PassyCore.ConfigurationError, b: PassyCore.ConfigurationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public class ActionGroupToActionUnlockList : Swift.Codable {
   public var groupName: Swift.String
@@ -1509,6 +1563,8 @@ extension PassyCore.RestAuthenticationTokenType : Swift.Equatable {}
 extension PassyCore.RestAuthenticationTokenType : Swift.Hashable {}
 extension PassyCore.ComponentAvailability : Swift.Equatable {}
 extension PassyCore.ComponentAvailability : Swift.Hashable {}
+extension PassyCore.ConfigurationError : Swift.Equatable {}
+extension PassyCore.ConfigurationError : Swift.Hashable {}
 extension PassyCore.SmartkeyBluetoothDeviceTypes : Swift.Equatable {}
 extension PassyCore.SmartkeyBluetoothDeviceTypes : Swift.Hashable {}
 extension PassyCore.SmartkeyBluetoothDeviceTypes : Swift.RawRepresentable {}

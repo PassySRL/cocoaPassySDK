@@ -3499,6 +3499,228 @@
           },
           {
             "kind": "Var",
+            "name": "optionalBaseUriFreeCalls",
+            "printedName": "optionalBaseUriFreeCalls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvp",
+            "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvg",
+                "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvs",
+                "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvM",
+                "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriFreeCallsSSSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optionalBaseUriWaadCalls",
+            "printedName": "optionalBaseUriWaadCalls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvp",
+            "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvg",
+                "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvs",
+                "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvM",
+                "mangledName": "$s9PassyCore23TenantConfigurationDataV24optionalBaseUriWaadCallsSSSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "OAUTHClientID",
             "printedName": "OAUTHClientID",
             "children": [
@@ -4632,6 +4854,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ITenantConfigurationData",
+            "printedName": "ITenantConfigurationData",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -25958,7 +26187,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PassyCore.HttpOperationResult<τ_0_0>) -> ()",
+                "printedName": "(PassyCore.HttpOperationResult<τ_0_0>) throws -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25982,8 +26211,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PassyCore10RestClientC9postAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGctKSeRzlF",
-            "mangledName": "$s9PassyCore10RestClientC9postAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGctKSeRzlF",
+            "usr": "s:9PassyCore10RestClientC9postAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGKctKSeRzlF",
+            "mangledName": "$s9PassyCore10RestClientC9postAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGKctKSeRzlF",
             "moduleName": "PassyCore",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
@@ -26023,7 +26252,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PassyCore.HttpOperationResult<τ_0_0>) -> ()",
+                "printedName": "(PassyCore.HttpOperationResult<τ_0_0>) throws -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26047,8 +26276,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PassyCore10RestClientC8putAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGctKSeRzlF",
-            "mangledName": "$s9PassyCore10RestClientC8putAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGctKSeRzlF",
+            "usr": "s:9PassyCore10RestClientC8putAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGKctKSeRzlF",
+            "mangledName": "$s9PassyCore10RestClientC8putAsync3url4data20connectionParameters8callbackySS_Se_SEpAA0c10ConnectionJ0CyAA19HttpOperationResultCyxGKctKSeRzlF",
             "moduleName": "PassyCore",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
@@ -26083,7 +26312,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PassyCore.HttpOperationResult<τ_0_0>) -> ()",
+                "printedName": "(PassyCore.HttpOperationResult<τ_0_0>) throws -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26107,8 +26336,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PassyCore10RestClientC11deleteAsync3url20connectionParameters8callbackySS_AA0c10ConnectionI0CyAA19HttpOperationResultCyxGctKSeRzlF",
-            "mangledName": "$s9PassyCore10RestClientC11deleteAsync3url20connectionParameters8callbackySS_AA0c10ConnectionI0CyAA19HttpOperationResultCyxGctKSeRzlF",
+            "usr": "s:9PassyCore10RestClientC11deleteAsync3url20connectionParameters8callbackySS_AA0c10ConnectionI0CyAA19HttpOperationResultCyxGKctKSeRzlF",
+            "mangledName": "$s9PassyCore10RestClientC11deleteAsync3url20connectionParameters8callbackySS_AA0c10ConnectionI0CyAA19HttpOperationResultCyxGKctKSeRzlF",
             "moduleName": "PassyCore",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
@@ -28172,6 +28401,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28193,17 +28423,40 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GetGuestPassDefault",
+            "printedName": "GetGuestPassDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV19GetGuestPassDefaultSSvpZ",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19GetGuestPassDefaultSSvpZ",
+            "moduleName": "PassyCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
               {
                 "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
                   {
                     "kind": "TypeNominal",
                     "name": "String",
@@ -28212,31 +28465,153 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV03GetC7DefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV03GetC7DefaultSSvsZ",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV19GetGuestPassDefaultSSvgZ",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19GetGuestPassDefaultSSvgZ",
                 "moduleName": "PassyCore",
                 "static": true,
                 "implicit": true,
-                "accessorKind": "set"
-              },
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GetGuestPassFromUriDefault",
+            "printedName": "GetGuestPassFromUriDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV26GetGuestPassFromUriDefaultSSvpZ",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV26GetGuestPassFromUriDefaultSSvpZ",
+            "moduleName": "PassyCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
               {
                 "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV03GetC7DefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV03GetC7DefaultSSvMZ",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV26GetGuestPassFromUriDefaultSSvgZ",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV26GetGuestPassFromUriDefaultSSvgZ",
                 "moduleName": "PassyCore",
                 "static": true,
                 "implicit": true,
-                "accessorKind": "_modify"
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GuestEnrollmentCompletionDefault",
+            "printedName": "GuestEnrollmentCompletionDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV32GuestEnrollmentCompletionDefaultSSvpZ",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV32GuestEnrollmentCompletionDefaultSSvpZ",
+            "moduleName": "PassyCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV32GuestEnrollmentCompletionDefaultSSvgZ",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV32GuestEnrollmentCompletionDefaultSSvgZ",
+                "moduleName": "PassyCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GuestKeyConfirmationDefault",
+            "printedName": "GuestKeyConfirmationDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV27GuestKeyConfirmationDefaultSSvpZ",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV27GuestKeyConfirmationDefaultSSvpZ",
+            "moduleName": "PassyCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV27GuestKeyConfirmationDefaultSSvgZ",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV27GuestKeyConfirmationDefaultSSvgZ",
+                "moduleName": "PassyCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
               }
             ]
           },
@@ -28263,6 +28638,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28284,50 +28660,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV26MobileActionExecuteDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV26MobileActionExecuteDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV26MobileActionExecuteDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV26MobileActionExecuteDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28354,6 +28686,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28375,50 +28708,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV19GetLocationsDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19GetLocationsDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV19GetLocationsDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19GetLocationsDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28444,6 +28733,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28465,50 +28755,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV20GetBeaconInfoDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV20GetBeaconInfoDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV20GetBeaconInfoDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV20GetBeaconInfoDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28535,6 +28781,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28556,50 +28803,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV22GetReservationsDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV22GetReservationsDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV22GetReservationsDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV22GetReservationsDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28625,6 +28828,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28646,50 +28850,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV32ReservationSearchFreeRoomDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV32ReservationSearchFreeRoomDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV32ReservationSearchFreeRoomDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV32ReservationSearchFreeRoomDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28715,6 +28875,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28736,50 +28897,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV24CreateReservationDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24CreateReservationDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV24CreateReservationDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24CreateReservationDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28805,6 +28922,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28826,50 +28944,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV24UpdateReservationDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24UpdateReservationDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV24UpdateReservationDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24UpdateReservationDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28895,6 +28969,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -28916,50 +28991,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV24DeleteReservationDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24DeleteReservationDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV24DeleteReservationDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24DeleteReservationDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -28985,6 +29016,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -29006,50 +29038,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV30GetRoomsAndReservationsDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV30GetRoomsAndReservationsDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV30GetRoomsAndReservationsDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV30GetRoomsAndReservationsDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -29075,6 +29063,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -29096,50 +29085,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV35GetReservationSearchFreeRoomDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV35GetReservationSearchFreeRoomDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV35GetReservationSearchFreeRoomDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV35GetReservationSearchFreeRoomDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -29165,6 +29110,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -29186,50 +29132,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV18SearchUsersDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV18SearchUsersDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV18SearchUsersDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV18SearchUsersDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -29255,6 +29157,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -29276,50 +29179,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV06SignInF10OutDefaultSSvsZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV06SignInF10OutDefaultSSvsZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9PassyCore20SmartkeysServiceUrisV06SignInF10OutDefaultSSvMZ",
-                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV06SignInF10OutDefaultSSvMZ",
-                "moduleName": "PassyCore",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -29422,6 +29281,126 @@
                 "declKind": "Accessor",
                 "usr": "s:9PassyCore20SmartkeysServiceUrisV10webBaseURISSSgvg",
                 "mangledName": "$s9PassyCore20SmartkeysServiceUrisV10webBaseURISSSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optionalBaseUriFreeCalls",
+            "printedName": "optionalBaseUriFreeCalls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV24optionalBaseUriFreeCallsSSSgvp",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24optionalBaseUriFreeCallsSSSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV24optionalBaseUriFreeCallsSSSgvg",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24optionalBaseUriFreeCallsSSSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optionalBaseUriWaadCalls",
+            "printedName": "optionalBaseUriWaadCalls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV24optionalBaseUriWaadCallsSSSgvp",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24optionalBaseUriWaadCallsSSSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV24optionalBaseUriWaadCallsSSSgvg",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV24optionalBaseUriWaadCallsSSSgvg",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -30401,9 +30380,333 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "getGuestPass",
+            "printedName": "getGuestPass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvp",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvg",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvg",
+                "moduleName": "PassyCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvs",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvs",
+                "moduleName": "PassyCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvM",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV12getGuestPassSSvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getGuestPassFromUri",
+            "printedName": "getGuestPassFromUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvp",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvg",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvg",
+                "moduleName": "PassyCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvs",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvs",
+                "moduleName": "PassyCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvM",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV19getGuestPassFromUriSSvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "guestEnrollmentCompletion",
+            "printedName": "guestEnrollmentCompletion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvp",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvg",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvg",
+                "moduleName": "PassyCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvs",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvs",
+                "moduleName": "PassyCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvM",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV25guestEnrollmentCompletionSSvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "guestKeyConfirmation",
+            "printedName": "guestKeyConfirmation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvp",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvg",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvg",
+                "moduleName": "PassyCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvs",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvs",
+                "moduleName": "PassyCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvM",
+                "mangledName": "$s9PassyCore20SmartkeysServiceUrisV20guestKeyConfirmationSSvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(for:and:)",
+            "printedName": "init(for:and:andOptionalBaseUriFreeCalls:andOptionalBaseUriWaadCalls:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30431,17 +30734,76 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9PassyCore20SmartkeysServiceUrisV3for3andACSS_SSSgtcfc",
-            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV3for3andACSS_SSSgtcfc",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV3for3and0G24OptionalBaseUriFreeCalls0ghij4WaadL0ACSS_SSSgA2Htcfc",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV3for3and0G24OptionalBaseUriFreeCalls0ghij4WaadL0ACSS_SSSgA2Htcfc",
             "moduleName": "PassyCore",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fromConfigurationData",
+            "printedName": "fromConfigurationData(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartkeysServiceUris",
+                "printedName": "PassyCore.SmartkeysServiceUris",
+                "usr": "s:9PassyCore20SmartkeysServiceUrisV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITenantConfigurationData",
+                "printedName": "PassyCore.ITenantConfigurationData",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV21fromConfigurationData3forAcA07ITenantgH0_p_tKFZ",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV21fromConfigurationData3forAcA07ITenantgH0_p_tKFZ",
+            "moduleName": "PassyCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -38974,6 +39336,936 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ITenantConfigurationData",
+        "printedName": "ITenantConfigurationData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configurationID",
+            "printedName": "configurationID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP15configurationID10Foundation4UUIDVvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP15configurationID10Foundation4UUIDVvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP15configurationID10Foundation4UUIDVvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP15configurationID10Foundation4UUIDVvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tenantID",
+            "printedName": "tenantID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP8tenantID10Foundation4UUIDVSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP8tenantID10Foundation4UUIDVSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP8tenantID10Foundation4UUIDVSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP8tenantID10Foundation4UUIDVSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "company",
+            "printedName": "company",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP7companySSvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP7companySSvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP7companySSvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP7companySSvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseUri",
+            "printedName": "baseUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP7baseUriSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP7baseUriSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP7baseUriSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP7baseUriSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseUriWebApp",
+            "printedName": "baseUriWebApp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP13baseUriWebAppSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP13baseUriWebAppSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP13baseUriWebAppSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP13baseUriWebAppSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optionalBaseUriFreeCalls",
+            "printedName": "optionalBaseUriFreeCalls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP24optionalBaseUriFreeCallsSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP24optionalBaseUriFreeCallsSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP24optionalBaseUriFreeCallsSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP24optionalBaseUriFreeCallsSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optionalBaseUriWaadCalls",
+            "printedName": "optionalBaseUriWaadCalls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP24optionalBaseUriWaadCallsSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP24optionalBaseUriWaadCallsSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP24optionalBaseUriWaadCallsSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP24optionalBaseUriWaadCallsSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OAUTHClientID",
+            "printedName": "OAUTHClientID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP13OAUTHClientIDSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP13OAUTHClientIDSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP13OAUTHClientIDSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP13OAUTHClientIDSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OAUTHResourceIDUri",
+            "printedName": "OAUTHResourceIDUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP18OAUTHResourceIDUriSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP18OAUTHResourceIDUriSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP18OAUTHResourceIDUriSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP18OAUTHResourceIDUriSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OAUTHRedirectUrl",
+            "printedName": "OAUTHRedirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP16OAUTHRedirectUrlSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP16OAUTHRedirectUrlSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP16OAUTHRedirectUrlSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP16OAUTHRedirectUrlSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OAUTHHint",
+            "printedName": "OAUTHHint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP9OAUTHHintSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP9OAUTHHintSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP9OAUTHHintSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP9OAUTHHintSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SmartKeyOAuthUri",
+            "printedName": "SmartKeyOAuthUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP16SmartKeyOAuthUriSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP16SmartKeyOAuthUriSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP16SmartKeyOAuthUriSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP16SmartKeyOAuthUriSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SmartKeyMSALUrl",
+            "printedName": "SmartKeyMSALUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP15SmartKeyMSALUrlSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP15SmartKeyMSALUrlSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP15SmartKeyMSALUrlSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP15SmartKeyMSALUrlSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smartKeyGuestUri",
+            "printedName": "smartKeyGuestUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP16smartKeyGuestUriSSSgvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP16smartKeyGuestUriSSSgvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP16smartKeyGuestUriSSSgvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP16smartKeyGuestUriSSSgvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smartKeyDeleteURI",
+            "printedName": "smartKeyDeleteURI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP17smartKeyDeleteURISSvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP17smartKeyDeleteURISSvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP17smartKeyDeleteURISSvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP17smartKeyDeleteURISSvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP4rssiSivp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP4rssiSivp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP4rssiSivg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP4rssiSivg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore24ITenantConfigurationDataP9isEnabledSbvp",
+            "mangledName": "$s9PassyCore24ITenantConfigurationDataP9isEnabledSbvp",
+            "moduleName": "PassyCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore24ITenantConfigurationDataP9isEnabledSbvg",
+                "mangledName": "$s9PassyCore24ITenantConfigurationDataP9isEnabledSbvg",
+                "moduleName": "PassyCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : PassyCore.ITenantConfigurationData>",
+                "sugared_genericSig": "<Self where Self : PassyCore.ITenantConfigurationData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9PassyCore24ITenantConfigurationDataP",
+        "mangledName": "$s9PassyCore24ITenantConfigurationDataP",
+        "moduleName": "PassyCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ExecuteActionResult",
         "printedName": "ExecuteActionResult",
         "children": [
@@ -40047,6 +41339,267 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PassyCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurationError",
+        "printedName": "ConfigurationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidConfigurationGeneric",
+            "printedName": "invalidConfigurationGeneric",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ConfigurationError.Type) -> PassyCore.ConfigurationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationError",
+                    "printedName": "PassyCore.ConfigurationError",
+                    "usr": "s:9PassyCore18ConfigurationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCore.ConfigurationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigurationError",
+                        "printedName": "PassyCore.ConfigurationError",
+                        "usr": "s:9PassyCore18ConfigurationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PassyCore18ConfigurationErrorO07invalidC7GenericyA2CmF",
+            "mangledName": "$s9PassyCore18ConfigurationErrorO07invalidC7GenericyA2CmF",
+            "moduleName": "PassyCore"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidBaseUri",
+            "printedName": "invalidBaseUri",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ConfigurationError.Type) -> PassyCore.ConfigurationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationError",
+                    "printedName": "PassyCore.ConfigurationError",
+                    "usr": "s:9PassyCore18ConfigurationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCore.ConfigurationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigurationError",
+                        "printedName": "PassyCore.ConfigurationError",
+                        "usr": "s:9PassyCore18ConfigurationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PassyCore18ConfigurationErrorO14invalidBaseUriyA2CmF",
+            "mangledName": "$s9PassyCore18ConfigurationErrorO14invalidBaseUriyA2CmF",
+            "moduleName": "PassyCore"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidWebBaseUri",
+            "printedName": "invalidWebBaseUri",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ConfigurationError.Type) -> PassyCore.ConfigurationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationError",
+                    "printedName": "PassyCore.ConfigurationError",
+                    "usr": "s:9PassyCore18ConfigurationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PassyCore.ConfigurationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigurationError",
+                        "printedName": "PassyCore.ConfigurationError",
+                        "usr": "s:9PassyCore18ConfigurationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9PassyCore18ConfigurationErrorO17invalidWebBaseUriyA2CmF",
+            "mangledName": "$s9PassyCore18ConfigurationErrorO17invalidWebBaseUriyA2CmF",
+            "moduleName": "PassyCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigurationError",
+                "printedName": "PassyCore.ConfigurationError",
+                "usr": "s:9PassyCore18ConfigurationErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigurationError",
+                "printedName": "PassyCore.ConfigurationError",
+                "usr": "s:9PassyCore18ConfigurationErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore18ConfigurationErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9PassyCore18ConfigurationErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PassyCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore18ConfigurationErrorO9hashValueSivp",
+            "mangledName": "$s9PassyCore18ConfigurationErrorO9hashValueSivp",
+            "moduleName": "PassyCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore18ConfigurationErrorO9hashValueSivg",
+                "mangledName": "$s9PassyCore18ConfigurationErrorO9hashValueSivg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore18ConfigurationErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9PassyCore18ConfigurationErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PassyCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9PassyCore18ConfigurationErrorO",
+        "mangledName": "$s9PassyCore18ConfigurationErrorO",
+        "moduleName": "PassyCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -66617,259 +68170,287 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 1586,
+      "offset": 1820,
       "length": 24,
       "value": "\"<no base uri provided>\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 1823,
+      "offset": 2057,
       "length": 28,
       "value": "\"<no web base uri provided>\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 1999,
+      "offset": 2233,
       "length": 74,
       "value": "\"Configuration ID: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2275,
       "length": 1,
       "value": "\", Base URI: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2070,
+      "offset": 2304,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2095,
+      "offset": 2329,
       "length": 36,
       "value": "\"Web base URI: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2130,
+      "offset": 2364,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2227,
+      "offset": 2461,
       "length": 17,
       "value": "\"ConfigurationID\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2503,
       "length": 10,
       "value": "\"TenantID\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2537,
       "length": 9,
       "value": "\"Company\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 2570,
       "length": 9,
       "value": "\"BaseUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2375,
+      "offset": 2609,
       "length": 15,
       "value": "\"BaseUriWebApp\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2665,
+      "length": 13,
+      "value": "\"BaseUriFree\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2719,
+      "length": 13,
+      "value": "\"BaseUriWaad\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2762,
       "length": 14,
       "value": "\"ADALClientID\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2469,
+      "offset": 2811,
       "length": 19,
       "value": "\"ADALResourceIDUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2521,
+      "offset": 2863,
       "length": 17,
       "value": "\"ADALRedirectUrl\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2564,
+      "offset": 2906,
       "length": 10,
       "value": "\"ADALHint\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2607,
+      "offset": 2949,
       "length": 22,
       "value": "\"SmartKeyADALOAuthUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2661,
+      "offset": 3003,
       "length": 17,
       "value": "\"SmartKeyADALUrl\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2711,
+      "offset": 3053,
       "length": 18,
       "value": "\"SmartKeyGuestUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 3105,
       "length": 19,
       "value": "\"SmartKeyDeleteURI\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2803,
+      "offset": 3145,
       "length": 6,
       "value": "\"Rssi\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 3177,
       "length": 11,
       "value": "\"IsEnabled\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2227,
+      "offset": 2461,
       "length": 17,
       "value": "\"ConfigurationID\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2503,
       "length": 10,
       "value": "\"TenantID\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2537,
       "length": 9,
       "value": "\"Company\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 2570,
       "length": 9,
       "value": "\"BaseUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2375,
+      "offset": 2609,
       "length": 15,
       "value": "\"BaseUriWebApp\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2665,
+      "length": 13,
+      "value": "\"BaseUriFree\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2719,
+      "length": 13,
+      "value": "\"BaseUriWaad\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2762,
       "length": 14,
       "value": "\"ADALClientID\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2469,
+      "offset": 2811,
       "length": 19,
       "value": "\"ADALResourceIDUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2521,
+      "offset": 2863,
       "length": 17,
       "value": "\"ADALRedirectUrl\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2564,
+      "offset": 2906,
       "length": 10,
       "value": "\"ADALHint\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2607,
+      "offset": 2949,
       "length": 22,
       "value": "\"SmartKeyADALOAuthUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2661,
+      "offset": 3003,
       "length": 17,
       "value": "\"SmartKeyADALUrl\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2711,
+      "offset": 3053,
       "length": 18,
       "value": "\"SmartKeyGuestUri\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 3105,
       "length": 19,
       "value": "\"SmartKeyDeleteURI\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2803,
+      "offset": 3145,
       "length": 6,
       "value": "\"Rssi\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/configuration\/TenantConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 3177,
       "length": 11,
       "value": "\"IsEnabled\""
     },
@@ -69956,140 +71537,140 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 3496,
+      "offset": 3503,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 5910,
+      "offset": 5924,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9161,
+      "offset": 9182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "Array",
-      "offset": 10390,
+      "offset": 10411,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 11353,
+      "offset": 11374,
       "length": 71,
       "value": "\"Setting date time deconding strategy to \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 11423,
+      "offset": 11444,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 11472,
+      "offset": 11493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 11985,
+      "offset": 12006,
       "length": 42,
       "value": "\"Request result is not an error response.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 12238,
+      "offset": 12259,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 12298,
+      "offset": 12319,
       "length": 52,
       "value": "\"Trying to decode JSON \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 12349,
+      "offset": 12370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 12885,
+      "offset": 12906,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 13086,
+      "offset": 13107,
       "length": 16,
       "value": "\"Try to decode \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 13267,
+      "offset": 13288,
       "length": 8,
       "value": "\"JSON: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 13766,
+      "offset": 13787,
       "length": 73,
       "value": "\"Content string is empty or null. Cannot decode an empty content string.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "Dictionary",
-      "offset": 13975,
+      "offset": 13996,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 14249,
+      "offset": 14270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 14368,
+      "offset": 14389,
       "length": 86,
       "value": "\"Current request response is an error response. Error: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "StringLiteral",
-      "offset": 14453,
+      "offset": 14474,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/net\/RestClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 14681,
+      "offset": 14702,
       "length": 1,
       "value": "0"
     },
@@ -70208,98 +71789,126 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 243,
+      "offset": 247,
       "length": 34,
       "value": "\"api\/provisioning\/apps\/enrollment\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 350,
+      "length": 46,
+      "value": "\"api\/provisioning\/apps\/associations\/{0}\/guest\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 53,
+      "value": "\"api\/provisioning\/apps\/associationsWithUrl\/{0}\/guest\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 56,
+      "value": "\"api\/provisioning\/apps\/associations\/{0}\/guestCompletion\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 45,
+      "value": "\"api\/provisioning\/apps\/associations\/keys\/{0}\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
       "length": 33,
       "value": "\"api\/executeaction\/mobileExecute\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 917,
       "length": 15,
       "value": "\"api\/locations\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 986,
       "length": 30,
       "value": "\"api\/locations\/beacon\/getInfo\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 1103,
       "length": 33,
       "value": "\"api\/provisioning\/GetReservation\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 753,
+      "offset": 1202,
       "length": 33,
       "value": "\"api\/provisioning\/searchFreeRoom\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 1293,
       "length": 36,
       "value": "\"api\/provisioning\/createReservation\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 1387,
       "length": 36,
       "value": "\"api\/provisioning\/updateReservation\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1482,
       "length": 36,
       "value": "\"api\/provisioning\/deleteReservation\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1582,
       "length": 40,
       "value": "\"api\/provisioning\/getRoomAndReservation\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
+      "offset": 1691,
       "length": 33,
       "value": "\"api\/provisioning\/searchFreeRoom\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 1327,
+      "offset": 1776,
       "length": 29,
       "value": "\"api\/provisioning\/searchUser\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1859,
       "length": 28,
       "value": "\"api\/provisioning\/signInOut\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/services\/SmartkeysServiceUris.swift",
       "kind": "StringLiteral",
-      "offset": 7068,
+      "offset": 10484,
       "length": 3,
       "value": "\"\/\""
     },
