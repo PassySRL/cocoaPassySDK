@@ -1108,7 +1108,9 @@ public struct NFCReadException : Swift.Error {
   public var tenantID: Foundation.UUID?
   public var objectID: Foundation.UUID?
   public var locationID: Swift.Int?
+  public var inLocationID: Swift.Int?
   public var locationName: Swift.String?
+  public var locationDescription: Swift.String?
   public var description: Swift.String?
   public var objectType: PassyCore.ObjectType?
   public var direction: Swift.Int?
@@ -1116,6 +1118,7 @@ public struct NFCReadException : Swift.Error {
   public var openable: Swift.Bool?
   public var disabled: Swift.Bool?
   public var bookable: Swift.Bool?
+  public var matchAll: Swift.Bool?
   public var propertyValues: [PassyCore.PropertyValue]?
   public var score: Swift.Double?
   @objc deinit

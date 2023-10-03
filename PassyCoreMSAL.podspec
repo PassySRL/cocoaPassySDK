@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PassyCoreMSAL'
-  s.version          = '0.0.57'
+  s.version          = '0.0.60'
   s.summary          = 'Optional Microsoft Authentication Library wrapper for Passy Core'
 
   s.description      = <<-DESC
