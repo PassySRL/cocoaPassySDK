@@ -33194,14 +33194,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PassyCore20SmartkeysServiceUrisV21fromConfigurationData3forAcA07ITenantgH0_p_tKFZ",
-            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV21fromConfigurationData3forAcA07ITenantgH0_p_tKFZ",
+            "usr": "s:9PassyCore20SmartkeysServiceUrisV21fromConfigurationData3forAcA07ITenantgH0_p_tFZ",
+            "mangledName": "$s9PassyCore20SmartkeysServiceUrisV21fromConfigurationData3forAcA07ITenantgH0_p_tFZ",
             "moduleName": "PassyCore",
             "static": true,
             "declAttributes": [
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],

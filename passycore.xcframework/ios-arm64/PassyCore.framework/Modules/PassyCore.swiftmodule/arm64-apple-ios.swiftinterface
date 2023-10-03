@@ -670,7 +670,7 @@ public struct SmartkeysServiceUris {
     set
   }
   public init(for baseURI: Swift.String, and webBaseURI: Swift.String? = nil, andOptionalBaseUriFreeCalls optionalBaseUriFreeCalls: Swift.String? = nil, andOptionalBaseUriWaadCalls optionalBaseUriWaadCalls: Swift.String? = nil)
-  public static func fromConfigurationData(for configurationData: any PassyCore.ITenantConfigurationData) throws -> PassyCore.SmartkeysServiceUris
+  public static func fromConfigurationData(for configurationData: any PassyCore.ITenantConfigurationData) -> PassyCore.SmartkeysServiceUris
 }
 extension Foundation.Data {
   public func toUInt64(isBigEndian: Swift.Bool) -> Swift.UInt64

@@ -1,7 +1,7 @@
 framework module PassyCoreMSAL {
   umbrella header "PassyCoreMSAL.h"
-
   export *
+
   module * { export * }
 }
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PassyCoreMSAL-Swift.h</key>
 		<data>
-		dqVseatSsbUFM4rqK00dERGdjsE=
+		ISjTY+TQeXGIppH9Z9m8kTKIrmQ=
 		</data>
 		<key>Headers/PassyCoreMSAL.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZFTKoR2/TKTncl/UqB/cmFXHKYs=
+		8xA+E4sthRJuImoQOkWJR72+MIs=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WUAp8iN95RhQGFdUf8/RiRUTVu4=
+		xhlTZXZ1KFUeybQDjXlBlWiShio=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Axhum9K8BgVU0GuXZR5nczdFXZg=
+		kU3SczBO/SOMAjy5CU2Mbfre4Yg=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WUAp8iN95RhQGFdUf8/RiRUTVu4=
+		xhlTZXZ1KFUeybQDjXlBlWiShio=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qyTMUwvifpFVvO6Pp3zOnWROqdM=
+		D6NGiBK3wxabmU4emUkKQIRoPZs=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,23 +42,23 @@
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2ZkrrXVzsPBta1NOqLf023v+qps=
+		9zDq/NyLpD1b2wKsYHB73Vy+SdY=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kplWpe2U9h6z0TuviPWq86C0FcA=
+		SUFDnsOnKNQomxRaGOeKdWEl9/I=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2ZkrrXVzsPBta1NOqLf023v+qps=
+		9zDq/NyLpD1b2wKsYHB73Vy+SdY=
 		</data>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		537bR+YcmqU+BlVRft3+32GrQEU=
+		62wiw26OsmF3m03lcI1y2CcH0ck=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		cXgxJpj6+wFIzEqpmlmBGsrW4Uw=
+		eajhmnr3DwDoA7yWBHtsePTyfXc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R+ots5Ne0OeZu3Pdz3tEBkDeOEGJR3gq1qyRzoc3Ln8=
+			AGPhUg+2RMT9ww5wNdpMrqthR9a44WxyMMbCDVaViLc=
 			</data>
 		</dict>
 		<key>Headers/PassyCoreMSAL.h</key>
@@ -88,28 +88,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vQeI43xhOGHx+jghmCGG6JngnNC+rUwtzWeYsL0thx8=
+			OIlcmMZYmI0P4t18wxXHv+IHi+ioWbRDH1GHErrk/4Q=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oNiFg7SIgpRyreoTpUsq877KD9pyvXXgXCY8XtalvwI=
+			6RIalSTdccLtQfYbq7OKBpjL1o8FGrX0oERNB+hbKD0=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vQeI43xhOGHx+jghmCGG6JngnNC+rUwtzWeYsL0thx8=
+			OIlcmMZYmI0P4t18wxXHv+IHi+ioWbRDH1GHErrk/4Q=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iBlpEX4KHLPsJEuMOKmjCQ7tysKFjMulXq1WpoPUVhM=
+			fiahbw1y3kKn4w58yzCHiZ24gL++0Mlzl2bk94hPL5E=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -123,35 +123,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9C4QHny1QBD49MsuNvlamfrjmEaRdf41ez11jZRUK8=
+			HeVM+a9Lkd37H1TRIpbubktqaHjoU9p3PaCErfe0+9o=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ORJjAdJuwYVddAX8hPoztbYV/AsEqJF5xR0Q8mLgN4o=
+			LUxu4FWeB8LAjTPjb63WT/U3kdqCBp5/+KHy3ghvPBs=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9C4QHny1QBD49MsuNvlamfrjmEaRdf41ez11jZRUK8=
+			HeVM+a9Lkd37H1TRIpbubktqaHjoU9p3PaCErfe0+9o=
 			</data>
 		</dict>
 		<key>Modules/PassyCoreMSAL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9HEH30qDGLefccNYVb9/oQLW/q+Hevsw51Jq7pX4fgQ=
+			m9vuvf9et+NPLL9t5Ugwz79uImVH78gZ99Dn1PShG6Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QCEsE1QCtHZtq+uOYSPkXmEhkINPRRGHOeTZYhldPyU=
+			cKHdugTNt12MfM8GnSQQ45krQmtUf6tgFrMKgCYSDYU=
 			</data>
 		</dict>
 	</dict>
