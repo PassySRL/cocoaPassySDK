@@ -87,7 +87,7 @@ public protocol IServiceOperationResult {
   var result: Self.T? { get }
 }
 #endif
-public struct TenantConfigurationData : PassyCore.ITenantConfigurationData, Swift.Codable, Swift.CustomStringConvertible {
+public struct TenantConfigurationData : Swift.Codable, Swift.CustomStringConvertible {
   public var configurationID: Foundation.UUID
   public var tenantID: Foundation.UUID?
   public var company: Swift.String
@@ -956,20 +956,12 @@ public class PassyTagPayload {
 }
 public protocol ITenantConfigurationData {
   var configurationID: Foundation.UUID { get }
-  var tenantID: Foundation.UUID? { get }
+  var tenantID: Foundation.UUID { get }
   var company: Swift.String { get }
-  var baseUri: Swift.String? { get }
+  var baseUri: Swift.String { get }
   var baseUriWebApp: Swift.String? { get }
   var optionalBaseUriFreeCalls: Swift.String? { get }
   var optionalBaseUriWaadCalls: Swift.String? { get }
-  var OAUTHClientID: Swift.String? { get }
-  var OAUTHResourceIDUri: Swift.String? { get }
-  var OAUTHRedirectUrl: Swift.String? { get }
-  var OAUTHHint: Swift.String? { get }
-  var SmartKeyOAuthUri: Swift.String? { get }
-  var SmartKeyMSALUrl: Swift.String? { get }
-  var smartKeyGuestUri: Swift.String? { get }
-  var smartKeyDeleteURI: Swift.String { get }
   var rssi: Swift.Int { get }
   var isEnabled: Swift.Bool { get }
 }
