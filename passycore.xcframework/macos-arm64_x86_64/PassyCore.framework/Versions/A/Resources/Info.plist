@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.0.275</string>
+	<string>0.0.280</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -37,9 +37,9 @@
 	<key>DTSDKName</key>
 	<string>macosx14.0</string>
 	<key>DTXcode</key>
-	<string>1500</string>
+	<string>1501</string>
 	<key>DTXcodeBuild</key>
-	<string>15A240d</string>
+	<string>15A507</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>13.1</string>
 </dict>

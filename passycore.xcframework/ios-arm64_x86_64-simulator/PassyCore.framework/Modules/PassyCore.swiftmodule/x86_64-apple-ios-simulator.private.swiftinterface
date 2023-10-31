@@ -267,6 +267,9 @@ public class ReservationGuest : Swift.Codable {
   public var companyID: Foundation.UUID?
   public var reservationID: Foundation.UUID?
   public var email: Swift.String?
+  public var guestAlternativeEmail: Swift.String?
+  public var guestFirstName: Swift.String?
+  public var guestLastName: Swift.String?
   public var roles: [Swift.String]?
   public var checkIn: Foundation.Date?
   public var checkOut: Foundation.Date?
@@ -466,6 +469,8 @@ public class Reservation : Swift.Codable {
   public var isOnlineMeeting: Swift.Bool?
   public var onlineMeetingUrl: Swift.String?
   public var mobileRequest: PassyCore.MobileRequest?
+  public var isRefused: Swift.Bool?
+  public var brokerResponses: [PassyCore.ReservationBrokerResponse]?
   public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -797,6 +802,17 @@ public enum ReservationStatus : Swift.Int, Swift.Codable {
   public var rawValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class ReservationBrokerResponse : Swift.Codable {
+  public var companyID: Foundation.UUID?
+  public var reservationID: Foundation.UUID?
+  public var brokerName: Swift.String?
+  public var accepted: Swift.Bool?
+  public var creationTime: Foundation.Date?
+  public var lastUpdated: Foundation.Date?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum RuntimeError : Swift.Error {
   case invalidArgument
