@@ -14054,16 +14054,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9PassyCore15RecurrenceModelV4freqSSvp",
-            "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSvp",
+            "usr": "s:9PassyCore15RecurrenceModelV4freqSSSgvp",
+            "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSSgvp",
             "moduleName": "PassyCore",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -14076,14 +14085,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore15RecurrenceModelV4freqSSvg",
-                "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSvg",
+                "usr": "s:9PassyCore15RecurrenceModelV4freqSSSgvg",
+                "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSSgvg",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -14100,14 +14117,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore15RecurrenceModelV4freqSSvs",
-                "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSvs",
+                "usr": "s:9PassyCore15RecurrenceModelV4freqSSSgvs",
+                "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSSgvs",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -14124,8 +14149,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9PassyCore15RecurrenceModelV4freqSSvM",
-                "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSvM",
+                "usr": "s:9PassyCore15RecurrenceModelV4freqSSSgvM",
+                "mangledName": "$s9PassyCore15RecurrenceModelV4freqSSSgvM",
                 "moduleName": "PassyCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15231,6 +15256,213 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecurrenceModel",
+                "printedName": "PassyCore.RecurrenceModel",
+                "usr": "s:9PassyCore15RecurrenceModelV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PassyCore15RecurrenceModelVACycfc",
+            "mangledName": "$s9PassyCore15RecurrenceModelVACycfc",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(freq:interval:count:until:byday:bymonthday:bymonth:bysetpos:wkst:exdate:recureditId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecurrenceModel",
+                "printedName": "PassyCore.RecurrenceModel",
+                "usr": "s:9PassyCore15RecurrenceModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PassyCore15RecurrenceModelV4freq8interval5count5until5byday10bymonthday7bymonth8bysetpos4wkst6exdate11recureditIdACSSSg_SiSgAP10Foundation4DateVSgAo3p2oPtcfc",
+            "mangledName": "$s9PassyCore15RecurrenceModelV4freq8interval5count5until5byday10bymonthday7bymonth8bysetpos4wkst6exdate11recureditIdACSSSg_SiSgAP10Foundation4DateVSgAo3p2oPtcfc",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -73024,154 +73256,154 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 1354,
       "length": 6,
       "value": "\"freq\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 578,
+      "offset": 1385,
       "length": 10,
       "value": "\"interval\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 1417,
       "length": 7,
       "value": "\"count\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 1446,
       "length": 7,
       "value": "\"until\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 1475,
       "length": 7,
       "value": "\"byday\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 1509,
       "length": 12,
       "value": "\"bymonthday\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 1545,
       "length": 9,
       "value": "\"bymonth\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 1579,
       "length": 10,
       "value": "\"bysetpos\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 1610,
       "length": 6,
       "value": "\"wkst\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 1639,
       "length": 8,
       "value": "\"exdate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 1675,
       "length": 13,
       "value": "\"recureditId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 1354,
       "length": 6,
       "value": "\"freq\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 578,
+      "offset": 1385,
       "length": 10,
       "value": "\"interval\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 1417,
       "length": 7,
       "value": "\"count\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 1446,
       "length": 7,
       "value": "\"until\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 1475,
       "length": 7,
       "value": "\"byday\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 1509,
       "length": 12,
       "value": "\"bymonthday\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 1545,
       "length": 9,
       "value": "\"bymonth\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 1579,
       "length": 10,
       "value": "\"bysetpos\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 1610,
       "length": 6,
       "value": "\"wkst\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 1639,
       "length": 8,
       "value": "\"exdate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/RecurrenceModel.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 1675,
       "length": 13,
       "value": "\"recureditId\""
     },

@@ -282,7 +282,7 @@ public class ReservationGuest : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 public struct RecurrenceModel : Swift.Codable {
-  public var freq: Swift.String
+  public var freq: Swift.String?
   public var interval: Swift.Int?
   public var count: Swift.Int?
   public var until: Foundation.Date?
@@ -293,6 +293,8 @@ public struct RecurrenceModel : Swift.Codable {
   public var wkst: Swift.String?
   public var exdate: Swift.String?
   public var recureditId: Swift.Int?
+  public init()
+  public init(freq: Swift.String? = nil, interval: Swift.Int? = nil, count: Swift.Int? = nil, until: Foundation.Date? = nil, byday: Swift.String? = nil, bymonthday: Swift.Int? = nil, bymonth: Swift.Int? = nil, bysetpos: Swift.Int? = nil, wkst: Swift.String? = nil, exdate: Swift.String? = nil, recureditId: Swift.Int? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
