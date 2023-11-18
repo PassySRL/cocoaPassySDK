@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PassyCore'
-  s.version          = '0.0.300'
+  s.version          = '0.0.330'
   s.summary          = 'Core functionalities for Passy SRL SaaS'
 
   s.description      = <<-DESC

@@ -23462,8 +23462,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23573,8 +23572,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23684,8 +23682,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23795,8 +23792,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23906,8 +23902,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24017,8 +24012,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24128,8 +24122,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24239,8 +24232,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24350,8 +24342,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24461,8 +24452,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24572,8 +24562,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24683,8 +24672,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24794,8 +24782,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24905,8 +24892,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25016,8 +25002,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25135,8 +25120,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25270,8 +25254,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25397,8 +25380,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25508,8 +25490,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25619,8 +25600,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25730,8 +25710,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25841,8 +25820,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -25952,8 +25930,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26063,8 +26040,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26174,8 +26150,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26615,8 +26590,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -26970,8 +26944,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -27055,6 +27028,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isAllDay",
+            "printedName": "isAllDay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PassyCore11ReservationC8isAllDaySbSgvp",
+            "mangledName": "$s9PassyCore11ReservationC8isAllDaySbSgvp",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore11ReservationC8isAllDaySbSgvg",
+                "mangledName": "$s9PassyCore11ReservationC8isAllDaySbSgvg",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore11ReservationC8isAllDaySbSgvs",
+                "mangledName": "$s9PassyCore11ReservationC8isAllDaySbSgvs",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PassyCore11ReservationC8isAllDaySbSgvM",
+                "mangledName": "$s9PassyCore11ReservationC8isAllDaySbSgvM",
+                "moduleName": "PassyCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -27074,6 +27157,504 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(companyID:reservationID:locationID:locationName:startDate:startDateLocal:endDate:endDateLocal:checkInValidFrom:checkInValidFromLocal:checkOutValidUntil:appointmentID:appointmentUniqueID:state:description:confirmed:reservationGuests:reservationProperties:completedDate:completedDateLocal:accessID:automaticCheckIn:brokerResponse:seats:verifyCheckIn:reservationMaster:recurrenceRule:isOnlineMeeting:onlineMeetingUrl:mobileRequest:isRefused:brokerResponses:isCalendarEvent:isAllDay:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reservation",
+                "printedName": "PassyCore.Reservation",
+                "usr": "s:9PassyCore11ReservationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[PassyCore.ReservationGuest]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PassyCore.ReservationGuest]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReservationGuest",
+                        "printedName": "PassyCore.ReservationGuest",
+                        "usr": "s:9PassyCore16ReservationGuestC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[PassyCore.ReservationProperty]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PassyCore.ReservationProperty]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReservationProperty",
+                        "printedName": "PassyCore.ReservationProperty",
+                        "usr": "s:9PassyCore19ReservationPropertyC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCore.RecurrenceModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecurrenceModel",
+                    "printedName": "PassyCore.RecurrenceModel",
+                    "usr": "s:9PassyCore15RecurrenceModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCore.MobileRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileRequest",
+                    "printedName": "PassyCore.MobileRequest",
+                    "usr": "s:9PassyCore13MobileRequestC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[PassyCore.ReservationBrokerResponse]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PassyCore.ReservationBrokerResponse]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReservationBrokerResponse",
+                        "printedName": "PassyCore.ReservationBrokerResponse",
+                        "usr": "s:9PassyCore25ReservationBrokerResponseC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PassyCore11ReservationC9companyID011reservationE008locationE00G4Name9startDate0iJ5Local03endJ00ljK016checkInValidFrom0mnopK00m3OutO5Until011appointmentE00s6UniqueE05state11description9confirmed0F6Guests0F10Properties09completedJ00zjK006accessE0014automaticCheckN014brokerResponse5seats011verifyCheckN00F6Master14recurrenceRule15isOnlineMeeting16onlineMeetingUrl13mobileRequest9isRefused15brokerResponses15isCalendarEvent8isAllDayAC10Foundation4UUIDV_A12_SiSSSgA10_0J0VSgA16_A16_A16_A16_A16_A16_A13_A13_A13_A13_SbSgSayAA0C5GuestCGSgSayAA0C8PropertyCGSgA16_A16_SiSgA17_A26_A26_A17_A12_SgAA15RecurrenceModelVSgA17_A13_AA13MobileRequestCSgA17_SayAA0C14BrokerResponseCGSgA17_A17_tcfc",
+            "mangledName": "$s9PassyCore11ReservationC9companyID011reservationE008locationE00G4Name9startDate0iJ5Local03endJ00ljK016checkInValidFrom0mnopK00m3OutO5Until011appointmentE00s6UniqueE05state11description9confirmed0F6Guests0F10Properties09completedJ00zjK006accessE0014automaticCheckN014brokerResponse5seats011verifyCheckN00F6Master14recurrenceRule15isOnlineMeeting16onlineMeetingUrl13mobileRequest9isRefused15brokerResponses15isCalendarEvent8isAllDayAC10Foundation4UUIDV_A12_SiSSSgA10_0J0VSgA16_A16_A16_A16_A16_A16_A13_A13_A13_A13_SbSgSayAA0C5GuestCGSgSayAA0C8PropertyCGSgA16_A16_SiSgA17_A26_A26_A17_A12_SgAA15RecurrenceModelVSgA17_A13_AA13MobileRequestCSgA17_SayAA0C14BrokerResponseCGSgA17_A17_tcfc",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
           },
           {
             "kind": "Constructor",
@@ -58730,7 +59311,7 @@
           {
             "kind": "Function",
             "name": "createReservation",
-            "printedName": "createReservation(locationID:startDate:endDate:description:seats:reservationGuests:reservationRecurrence:isOnlineMeeting:mobileRequest:authorizationHeader:requestSpecificWebAPIVersion:useSecureEndpoint:callback:)",
+            "printedName": "createReservation(locationID:startDate:endDate:description:seats:reservationGuests:reservationRecurrence:isOnlineMeeting:isAllDay:mobileRequest:authorizationHeader:requestSpecificWebAPIVersion:useSecureEndpoint:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -58851,6 +59432,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "MobileRequest",
                 "printedName": "PassyCore.MobileRequest",
                 "usr": "s:9PassyCore13MobileRequestC"
@@ -58901,8 +59488,79 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PassyCore28SmartkeyReservationsServicesC17createReservation10locationID9startDate03endK011description5seats17reservationGuests0O10Recurrence15isOnlineMeeting13mobileRequest19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySiSg_10Foundation0K0VSgAVSSSgARSayAA0G5GuestCGSgAA0Q5ModelVSgSbAA06MobileV0CSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCyAA0G8ResponseCGctKF",
-            "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC17createReservation10locationID9startDate03endK011description5seats17reservationGuests0O10Recurrence15isOnlineMeeting13mobileRequest19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySiSg_10Foundation0K0VSgAVSSSgARSayAA0G5GuestCGSgAA0Q5ModelVSgSbAA06MobileV0CSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCyAA0G8ResponseCGctKF",
+            "usr": "s:9PassyCore28SmartkeyReservationsServicesC17createReservation10locationID9startDate03endK011description5seats17reservationGuests0O10Recurrence15isOnlineMeeting0R6AllDay13mobileRequest19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySiSg_10Foundation0K0VSgAWSSSgASSayAA0G5GuestCGSgAA0Q5ModelVSgS2bAA06MobileX0CSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCyAA0G8ResponseCGctKF",
+            "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC17createReservation10locationID9startDate03endK011description5seats17reservationGuests0O10Recurrence15isOnlineMeeting0R6AllDay13mobileRequest19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackySiSg_10Foundation0K0VSgAWSSSgASSayAA0G5GuestCGSgAA0Q5ModelVSgS2bAA06MobileX0CSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCyAA0G8ResponseCGctKF",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createReservation",
+            "printedName": "createReservation(reservationData:authorizationHeader:requestSpecificWebAPIVersion:useSecureEndpoint:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Reservation",
+                "printedName": "PassyCore.Reservation",
+                "usr": "s:9PassyCore11ReservationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebAPIVersion",
+                "printedName": "PassyCore.WebAPIVersion",
+                "usr": "s:9PassyCore13WebAPIVersionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceOperationResult",
+                    "printedName": "PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReservationResponse",
+                        "printedName": "PassyCore.ReservationResponse",
+                        "usr": "s:9PassyCore19ReservationResponseC"
+                      }
+                    ],
+                    "usr": "s:9PassyCore22ServiceOperationResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore28SmartkeyReservationsServicesC17createReservation15reservationData19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackyAA0G0C_SSAA0nO0OSbyAA22ServiceOperationResultCyAA0G8ResponseCGctKF",
+            "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC17createReservation15reservationData19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbackyAA0G0C_SSAA0nO0OSbyAA22ServiceOperationResultCyAA0G8ResponseCGctKF",
             "moduleName": "PassyCore",
             "declAttributes": [
               "AccessControl"
@@ -59803,6 +60461,489 @@
             "declKind": "Func",
             "usr": "s:9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO019remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgAQSgAO0O0VAuA06RemoterS2V2CSgSSAA0xY0OSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
             "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO019remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgAQSgAO0O0VAuA06RemoterS2V2CSgSSAA0xY0OSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchFreeRoomAsync",
+            "printedName": "searchFreeRoomAsync(companyID:locationID:objectID:startDate:endDate:locationNameSearchTerm:remoteRequestBeacon:authorizationHeader:requestSpecificWebAPIVersion:useSecureEndpoint:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCore.RemoteRequestBeaconV2?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteRequestBeaconV2",
+                    "printedName": "PassyCore.RemoteRequestBeaconV2",
+                    "usr": "s:9PassyCore21RemoteRequestBeaconV2C"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebAPIVersion",
+                "printedName": "PassyCore.WebAPIVersion",
+                "usr": "s:9PassyCore13WebAPIVersionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceOperationResult",
+                    "printedName": "PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PassyCore.GenericObjectWithPropertyResource]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericObjectWithPropertyResource",
+                            "printedName": "PassyCore.GenericObjectWithPropertyResource",
+                            "usr": "s:9PassyCore33GenericObjectWithPropertyResourceC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:9PassyCore22ServiceOperationResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO00L14NameSearchTerm19remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgARSgAP0O0VAVSSSgAA06RemoteuV2V2CSgSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
+            "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO00L14NameSearchTerm19remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgARSgAP0O0VAVSSSgAA06RemoteuV2V2CSgSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchFreeRoomAsync",
+            "printedName": "searchFreeRoomAsync(companyID:locationID:objectID:startDate:endDate:locationName:locationNameSearchTerm:remoteRequestBeacon:authorizationHeader:requestSpecificWebAPIVersion:useSecureEndpoint:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCore.RemoteRequestBeaconV2?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteRequestBeaconV2",
+                    "printedName": "PassyCore.RemoteRequestBeaconV2",
+                    "usr": "s:9PassyCore21RemoteRequestBeaconV2C"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebAPIVersion",
+                "printedName": "PassyCore.WebAPIVersion",
+                "usr": "s:9PassyCore13WebAPIVersionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceOperationResult",
+                    "printedName": "PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PassyCore.GenericObjectWithPropertyResource]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericObjectWithPropertyResource",
+                            "printedName": "PassyCore.GenericObjectWithPropertyResource",
+                            "usr": "s:9PassyCore33GenericObjectWithPropertyResourceC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:9PassyCore22ServiceOperationResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO00L4Name0lQ10SearchTerm19remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgASSgAQ0O0VAWSSSgAxA06RemoteuV2V2CSgSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
+            "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO00L4Name0lQ10SearchTerm19remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgASSgAQ0O0VAWSSSgAxA06RemoteuV2V2CSgSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
+            "moduleName": "PassyCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchFreeRoomAsync",
+            "printedName": "searchFreeRoomAsync(companyID:locationID:objectID:startDate:endDate:locationName:locationNameSearchTerm:isAllDay:remoteRequestBeacon:authorizationHeader:requestSpecificWebAPIVersion:useSecureEndpoint:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassyCore.RemoteRequestBeaconV2?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteRequestBeaconV2",
+                    "printedName": "PassyCore.RemoteRequestBeaconV2",
+                    "usr": "s:9PassyCore21RemoteRequestBeaconV2C"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebAPIVersion",
+                "printedName": "PassyCore.WebAPIVersion",
+                "usr": "s:9PassyCore13WebAPIVersionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceOperationResult",
+                    "printedName": "PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PassyCore.GenericObjectWithPropertyResource]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericObjectWithPropertyResource",
+                            "printedName": "PassyCore.GenericObjectWithPropertyResource",
+                            "usr": "s:9PassyCore33GenericObjectWithPropertyResourceC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:9PassyCore22ServiceOperationResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO00L4Name0lQ10SearchTerm8isAllDay19remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgATSgAR0O0VAXSSSgAYSbSgAA06RemotexY2V2CSgSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
+            "mangledName": "$s9PassyCore28SmartkeyReservationsServicesC19searchFreeRoomAsync9companyID08locationK006objectK09startDate03endO00L4Name0lQ10SearchTerm8isAllDay19remoteRequestBeacon19authorizationHeader28requestSpecificWebAPIVersion17useSecureEndpoint8callbacky10Foundation4UUIDV_SiSgATSgAR0O0VAXSSSgAYSbSgAA06RemotexY2V2CSgSSAA13WebAPIVersionOSbyAA22ServiceOperationResultCySayAA33GenericObjectWithPropertyResourceCGGctKF",
             "moduleName": "PassyCore",
             "declAttributes": [
               "AccessControl"
@@ -79276,436 +80417,450 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2838,
+      "offset": 1584,
       "length": 11,
       "value": "\"CompanyId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2879,
+      "offset": 1625,
       "length": 15,
       "value": "\"ReservationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2921,
+      "offset": 1667,
       "length": 12,
       "value": "\"LocationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2962,
+      "offset": 1708,
       "length": 14,
       "value": "\"LocationName\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 1748,
       "length": 11,
       "value": "\"StartDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
+      "offset": 1790,
       "length": 16,
       "value": "\"StartDateLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3084,
+      "offset": 1830,
       "length": 9,
       "value": "\"EndDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3122,
+      "offset": 1868,
       "length": 14,
       "value": "\"EndDateLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3169,
+      "offset": 1915,
       "length": 18,
       "value": "\"CheckInValidFrom\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 1971,
       "length": 23,
       "value": "\"CheckInValidFromLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3283,
+      "offset": 2029,
       "length": 20,
       "value": "\"CheckOutValidUntil\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 2079,
       "length": 14,
       "value": "\"AppintmentId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3383,
+      "offset": 2129,
       "length": 21,
       "value": "\"AppointmentUniqueId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3426,
+      "offset": 2172,
       "length": 7,
       "value": "\"Stato\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3461,
+      "offset": 2207,
       "length": 13,
       "value": "\"Description\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3500,
+      "offset": 2246,
       "length": 12,
       "value": "\"Conmfirmed\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 2292,
       "length": 19,
       "value": "\"ReservationGuests\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3603,
+      "offset": 2349,
       "length": 23,
       "value": "\"ReservationProperties\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
+      "offset": 2402,
       "length": 15,
       "value": "\"CompletedDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 2452,
       "length": 20,
       "value": "\"CompletedDateLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 2497,
       "length": 11,
       "value": "\"AccessoId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3795,
+      "offset": 2541,
       "length": 18,
       "value": "\"AutomaticCheckIn\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 2590,
       "length": 16,
       "value": "\"BrokerResponse\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3882,
+      "offset": 2628,
       "length": 7,
       "value": "\"Seats\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 2665,
       "length": 15,
       "value": "\"VerifyCheckIn\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3968,
+      "offset": 2714,
       "length": 19,
       "value": "\"ReservationMaster\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 2764,
       "length": 16,
       "value": "\"RecurrenceRule\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4066,
+      "offset": 2812,
       "length": 17,
       "value": "\"IsOnlineMeeting\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 2862,
       "length": 18,
       "value": "\"OnlineMeetingUrl\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4164,
+      "offset": 2910,
       "length": 15,
       "value": "\"MobileRequest\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4211,
+      "offset": 2957,
       "length": 17,
       "value": "\"IsCalendarEvent\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2838,
+      "offset": 2999,
+      "length": 10,
+      "value": "\"IsAllDay\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
+      "kind": "StringLiteral",
+      "offset": 1584,
       "length": 11,
       "value": "\"CompanyId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2879,
+      "offset": 1625,
       "length": 15,
       "value": "\"ReservationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2921,
+      "offset": 1667,
       "length": 12,
       "value": "\"LocationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 2962,
+      "offset": 1708,
       "length": 14,
       "value": "\"LocationName\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 1748,
       "length": 11,
       "value": "\"StartDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
+      "offset": 1790,
       "length": 16,
       "value": "\"StartDateLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3084,
+      "offset": 1830,
       "length": 9,
       "value": "\"EndDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3122,
+      "offset": 1868,
       "length": 14,
       "value": "\"EndDateLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3169,
+      "offset": 1915,
       "length": 18,
       "value": "\"CheckInValidFrom\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 1971,
       "length": 23,
       "value": "\"CheckInValidFromLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3283,
+      "offset": 2029,
       "length": 20,
       "value": "\"CheckOutValidUntil\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 2079,
       "length": 14,
       "value": "\"AppintmentId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3383,
+      "offset": 2129,
       "length": 21,
       "value": "\"AppointmentUniqueId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3426,
+      "offset": 2172,
       "length": 7,
       "value": "\"Stato\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3461,
+      "offset": 2207,
       "length": 13,
       "value": "\"Description\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3500,
+      "offset": 2246,
       "length": 12,
       "value": "\"Conmfirmed\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 2292,
       "length": 19,
       "value": "\"ReservationGuests\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3603,
+      "offset": 2349,
       "length": 23,
       "value": "\"ReservationProperties\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
+      "offset": 2402,
       "length": 15,
       "value": "\"CompletedDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 2452,
       "length": 20,
       "value": "\"CompletedDateLocal\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 2497,
       "length": 11,
       "value": "\"AccessoId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3795,
+      "offset": 2541,
       "length": 18,
       "value": "\"AutomaticCheckIn\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 2590,
       "length": 16,
       "value": "\"BrokerResponse\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3882,
+      "offset": 2628,
       "length": 7,
       "value": "\"Seats\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 2665,
       "length": 15,
       "value": "\"VerifyCheckIn\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 3968,
+      "offset": 2714,
       "length": 19,
       "value": "\"ReservationMaster\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 2764,
       "length": 16,
       "value": "\"RecurrenceRule\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4066,
+      "offset": 2812,
       "length": 17,
       "value": "\"IsOnlineMeeting\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 2862,
       "length": 18,
       "value": "\"OnlineMeetingUrl\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4164,
+      "offset": 2910,
       "length": 15,
       "value": "\"MobileRequest\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
       "kind": "StringLiteral",
-      "offset": 4211,
+      "offset": 2957,
       "length": 17,
       "value": "\"IsCalendarEvent\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/reservations\/Reservation.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
+      "length": 10,
+      "value": "\"IsAllDay\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/models\/net\/remoteAPI\/smartkeys\/SHSData.swift",
@@ -84183,735 +85338,763 @@
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 13851,
+      "offset": 9188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 14074,
+      "offset": 13946,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 14504,
+      "offset": 14365,
+      "length": 53,
+      "value": "\"Crating or updating user reservations to uri \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 14417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18073,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 18726,
       "length": 42,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 14511,
+      "offset": 18733,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 14545,
+      "offset": 18767,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 14570,
+      "offset": 18792,
       "length": 60,
       "value": "\"Crating or updating user reservations to uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 14629,
+      "offset": 18851,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 16702,
+      "offset": 20980,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 16925,
+      "offset": 21203,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 17344,
-      "length": 53,
-      "value": "\"Crating or updating user reservations to uri \""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 17396,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19512,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19735,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 20161,
+      "offset": 21629,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 20168,
+      "offset": 21636,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 20193,
+      "offset": 21661,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 20218,
+      "offset": 21686,
       "length": 52,
       "value": "\"Deleting user reservations using uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 20269,
+      "offset": 21737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "Array",
-      "offset": 22292,
+      "offset": 23760,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 22605,
+      "offset": 24073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 22828,
+      "offset": 24296,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 22975,
+      "offset": 24443,
       "length": 14,
       "value": "\"InLocationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 23080,
+      "offset": 24548,
       "length": 17,
       "value": "\"GetReservations\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 23113,
+      "offset": 24581,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 23443,
+      "offset": 24911,
       "length": 11,
       "value": "\"StartDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 23731,
+      "offset": 25199,
       "length": 9,
       "value": "\"EndDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 23892,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24364,
-      "length": 37,
-      "value": "\"Query string build: \""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24399,
-      "length": 2,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24417,
-      "length": 28,
-      "value": "\"Request uri: \""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24444,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24755,
-      "length": 68,
-      "value": "\"Get reservations for location \""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24798,
-      "length": 5,
-      "value": "\" using uri \""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 24822,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "Array",
       "offset": 25360,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "Array",
-      "offset": 25618,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26102,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "Array",
-      "offset": 28426,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28739,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28962,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 29109,
-      "length": 14,
-      "value": "\"InLocationId\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 29214,
-      "length": 17,
-      "value": "\"GetReservations\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29247,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 29577,
-      "length": 11,
-      "value": "\"StartDate\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "StringLiteral",
-      "offset": 29865,
-      "length": 9,
-      "value": "\"EndDate\""
-    },
-    {
-      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
-      "kind": "BooleanLiteral",
-      "offset": 30026,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 30498,
+      "offset": 25832,
       "length": 37,
       "value": "\"Query string build: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 30533,
+      "offset": 25867,
       "length": 2,
       "value": "\" \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 30551,
+      "offset": 25885,
       "length": 28,
       "value": "\"Request uri: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 30578,
+      "offset": 25912,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 31492,
+      "offset": 26223,
       "length": 68,
       "value": "\"Get reservations for location \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 31535,
+      "offset": 26266,
       "length": 5,
       "value": "\" using uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 31559,
+      "offset": 26290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "Array",
+      "offset": 26828,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "Array",
+      "offset": 27086,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 32492,
+      "offset": 27570,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "Array",
+      "offset": 29894,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30207,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30430,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 32927,
+      "offset": 30577,
+      "length": 14,
+      "value": "\"InLocationId\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 30682,
+      "length": 17,
+      "value": "\"GetReservations\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30715,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 31045,
+      "length": 11,
+      "value": "\"StartDate\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 31333,
+      "length": 9,
+      "value": "\"EndDate\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31494,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 31966,
+      "length": 37,
+      "value": "\"Query string build: \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 32001,
+      "length": 2,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 32019,
+      "length": 28,
+      "value": "\"Request uri: \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 32046,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 32960,
+      "length": 68,
+      "value": "\"Get reservations for location \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 33003,
+      "length": 5,
+      "value": "\" using uri \""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 33027,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33960,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 34395,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 32936,
+      "offset": 34404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 33794,
+      "offset": 35262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 34017,
+      "offset": 35485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 34444,
+      "offset": 35912,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 34451,
+      "offset": 35919,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 34479,
+      "offset": 35947,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 34504,
+      "offset": 35972,
       "length": 103,
       "value": "\"Requesting reservation mastter for reservation ID \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 34582,
+      "offset": 36050,
       "length": 5,
       "value": "\" using uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 34606,
+      "offset": 36074,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 36832,
+      "offset": 38300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 37055,
+      "offset": 38523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 38075,
+      "offset": 39543,
       "length": 53,
       "value": "\"Crating or updating user reservations to uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 38127,
+      "offset": 39595,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 40181,
+      "offset": 41649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 40404,
+      "offset": 41872,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 40867,
+      "offset": 42335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 40913,
+      "offset": 42381,
       "length": 16,
       "value": "\"?onlyLast=true\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 40964,
+      "offset": 42432,
       "length": 51,
       "value": "\"Requesting user reservations to uri \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 41014,
+      "offset": 42482,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "Array",
-      "offset": 43242,
+      "offset": 49842,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 43478,
+      "offset": 50078,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 43701,
+      "offset": 50301,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 43924,
+      "offset": 50524,
       "length": 11,
       "value": "\"StartDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 44159,
+      "offset": 50759,
       "length": 9,
       "value": "\"EndDate\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 44352,
+      "offset": 50952,
       "length": 11,
       "value": "\"OggettoId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 44570,
+      "offset": 51170,
       "length": 14,
       "value": "\"InLocationId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 44878,
+      "offset": 51397,
+      "length": 14,
+      "value": "\"locationName\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 51628,
+      "length": 24,
+      "value": "\"LocationNameSearchTerm\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 51865,
+      "length": 10,
+      "value": "\"IsAllDay\""
+    },
+    {
+      "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
+      "kind": "StringLiteral",
+      "offset": 52167,
       "length": 18,
       "value": "\"roomControllerId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 45248,
+      "offset": 52537,
       "length": 13,
       "value": "\"serraturaId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 45534,
+      "offset": 52823,
       "length": 11,
       "value": "\"CompanyId\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 45605,
+      "offset": 52894,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 45618,
+      "offset": 52907,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 45737,
+      "offset": 53026,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 46214,
+      "offset": 53503,
       "length": 37,
       "value": "\"Query string build: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 46249,
+      "offset": 53538,
       "length": 2,
       "value": "\" \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 46267,
+      "offset": 53556,
       "length": 28,
       "value": "\"Request uri: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 46294,
+      "offset": 53583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 47300,
+      "offset": 54589,
       "length": 70,
       "value": "\"Search for free room returned \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 47359,
+      "offset": 54648,
       "length": 4,
       "value": "\" HTTP Code\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 47464,
+      "offset": 54753,
       "length": 37,
       "value": "\"Search for free room result is nil.\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 49179,
+      "offset": 56468,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 49402,
+      "offset": 56691,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 49607,
+      "offset": 56896,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 50067,
+      "offset": 57356,
       "length": 37,
       "value": "\"Query string build: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 50102,
+      "offset": 57391,
       "length": 2,
       "value": "\" \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 50120,
+      "offset": 57409,
       "length": 28,
       "value": "\"Request uri: \""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 50147,
+      "offset": 57436,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 51374,
+      "offset": 58663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 51608,
+      "offset": 58897,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "StringLiteral",
-      "offset": 51661,
+      "offset": 58950,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/Volumes\/Disco dati e giochi\/Git\/PassyMobileSDKs\/Sources\/Apple\/PassySDK\/PassyCore\/PassyCore\/services\/SmartkeyReservationsServices.swift",
       "kind": "Array",
-      "offset": 51738,
+      "offset": 59027,
       "length": 2,
       "value": "[]"
     },
