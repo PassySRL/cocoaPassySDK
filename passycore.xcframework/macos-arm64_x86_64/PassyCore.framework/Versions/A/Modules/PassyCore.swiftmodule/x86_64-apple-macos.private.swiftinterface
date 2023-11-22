@@ -612,6 +612,8 @@ public struct SmartkeysServiceUris {
   public static let SearchUsersDefault: Swift.String
   public static let SignInSignOutDefault: Swift.String
   public static let GetReservationMasterDefault: Swift.String
+  public static let UpdateReservationMasterDefault: Swift.String
+  public static let DeleteReservationMasterDefault: Swift.String
   public let baseURI: Swift.String
   public let webBaseURI: Swift.String?
   public let optionalBaseUriFreeCalls: Swift.String?
@@ -665,6 +667,14 @@ public struct SmartkeysServiceUris {
     set
   }
   public var getReservationMaster: Swift.String {
+    get
+    set
+  }
+  public var updateReservationMaster: Swift.String {
+    get
+    set
+  }
+  public var deleteReservationMaster: Swift.String {
     get
     set
   }
@@ -1246,13 +1256,15 @@ public enum AccessResultCode : Swift.Int, Swift.Codable {
   public func deleteReservation(reservationID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
   public func getReservationsForLocationAsync(locatonID: Swift.Int, startDate: Foundation.Date?, endDate: Foundation.Date?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
   public func getAllReservationsForLocationAsync(locatonID: Swift.Int, startDate: Foundation.Date?, endDate: Foundation.Date?, userKeyData: any PassyCore.IUserKeyData, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.Reservation]>) -> Swift.Void)) throws
-  public func getReservationMasterAsync(_ reservationID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationMaster>) -> Swift.Void)) throws
+  public func getReservationMasterAsync(_ reservationMasterID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationMaster>) -> Swift.Void)) throws
+  public func updateReservationMaster(reservationData: PassyCore.ReservationMaster, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
+  public func deleteReservationMaster(reservationMasterID: Foundation.UUID, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.ReservationResponse>) -> Swift.Void)) throws
   public func signInOrSignOut(requestTime: Foundation.Date, roomControllerID: Swift.Int, beaconID: Swift.Int?, secretCode: Swift.String?, eventType: PassyCore.SignInOutEventType, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<Swift.Bool?>) -> Swift.Void)) throws
   public func getSignInSignOutStatus(onlyLast: Swift.Bool, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.SignInSignOutStatusResult>) -> Swift.Void)) throws
-  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
-  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, locationNameSearchTerm: Swift.String?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
-  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, locationName: Swift.String?, locationNameSearchTerm: Swift.String?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
-  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, locationName: Swift.String?, locationNameSearchTerm: Swift.String?, isAllDay: Swift.Bool?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
+  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, myReservationID: Foundation.UUID?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
+  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, locationNameSearchTerm: Swift.String?, myReservationID: Foundation.UUID?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
+  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, locationName: Swift.String?, locationNameSearchTerm: Swift.String?, myReservationID: Foundation.UUID?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
+  public func searchFreeRoomAsync(companyID: Foundation.UUID, locationID: Swift.Int?, objectID: Foundation.UUID?, startDate: Foundation.Date, endDate: Foundation.Date, locationName: Swift.String?, locationNameSearchTerm: Swift.String?, isAllDay: Swift.Bool?, myReservationID: Foundation.UUID?, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<[PassyCore.GenericObjectWithPropertyResource]>) -> Swift.Void)) throws
   public func searchForUsersAsync(parameters: PassyCore.UserRequestSearchParameters, remoteRequestBeacon: PassyCore.RemoteRequestBeaconV2?, authorizationHeader: Swift.String, requestSpecificWebAPIVersion: PassyCore.WebAPIVersion, useSecureEndpoint: Swift.Bool, callback: @escaping ((PassyCore.ServiceOperationResult<PassyCore.UserSearchDataResult>) -> Swift.Void)) throws
   @objc deinit
 }
